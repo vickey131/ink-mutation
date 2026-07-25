@@ -2,25 +2,57 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #121316;
+  --gold-primary: #bfa17a;
+  --gold-accent: #9d815b;
+  --neutral-light: #f7f7f8;
+  --neutral-dark: #222326;
+  --border-color: #eaeaea;
 }
 
-@theme inline {
+@theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-gold-primary: var(--gold-primary);
+  --color-gold-accent: var(--gold-accent);
+  --color-neutral-light: var(--neutral-light);
+  --color-neutral-dark: var(--neutral-dark);
+  --color-border-color: var(--border-color);
+  
+  --font-serif: var(--font-serif), Georgia, serif;
+  --font-sans: var(--font-sans), var(--font-geist-sans), sans-serif;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--neutral-light);
+}
+::-webkit-scrollbar-thumb {
+  background: #dcdcdc;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-primary);
+}
+
+/* Typography Helpers */
+.font-serif-header {
+  font-family: var(--font-serif);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Fluid Hover Transition */
+.transition-smooth {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
