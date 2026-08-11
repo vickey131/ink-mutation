@@ -49,7 +49,7 @@ const styleCategories: StyleCategory[] = [
     title: "Classic Tattoos",
     tagline: "Discreet personal secrets, tucked away placements, and tiny secret designs.",
     description:
-      "Hidden tattoos are meant only for you and those you choose to show. Placed in discreet, easily covered regions of the body, they remain your secret. Suprith works with you to choose the perfect hidden placement.",
+      "Classic tattoos are meant only for you and those you choose to show. Placed in discreet, easily covered regions of the body, they remain your secret. Artist works with you to choose the perfect hidden placement.",
     image: "/images/Classic_thigh.jpg",
     characteristics: [
       "Behind-the-ear tiny stardust or star signs",
@@ -75,7 +75,7 @@ export default function StylesPage() {
             Tattoo Styles & Specialties
           </h1>
           <p className="text-sm text-foreground/70 leading-relaxed">
-            Suprith specializes in high-precision, elegant design branches. Discover which aesthetic suits your next custom design.
+            Artist specializes in high-precision, elegant design branches. Discover which aesthetic suits your next custom design.
           </p>
         </div>
 

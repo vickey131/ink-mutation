@@ -228,7 +228,7 @@ function PortfolioContent() {
         {/* Page Header */}
         <div className="text-center space-y-4 max-w-lg mx-auto">
           <span className="text-xs uppercase tracking-[0.2em] text-gold-primary font-semibold block">
-            Suprith&apos;s Canvas
+            Artist&apos;s Canvas
           </span>
           <h1 className="font-serif-header text-4xl font-bold text-foreground">
             Portfolio Gallery

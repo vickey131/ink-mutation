@@ -82,7 +82,7 @@ export default function HomePage() {
             <div className="relative w-full h-full overflow-hidden border border-border-color">
               <Image
                 src="/images/hero_bg.png"
-                alt="Minimalist fine line art tattoo by Suprith"
+                alt="Minimalist fine line art tattoo"
                 fill
                 priority
                 className="object-cover"
@@ -160,7 +160,7 @@ export default function HomePage() {
               Style Specialties
             </h2>
             <p className="text-sm text-foreground/70 leading-relaxed">
-              Suprith specializes in three signature branches of contemporary tattoo work.
+              Specializes in three signature branches of contemporary tattoo work.
             </p>
           </div>
 
@@ -344,10 +344,10 @@ export default function HomePage() {
               Start Your Design
             </span>
             <h2 className="font-serif-header text-3xl md:text-4xl font-bold text-foreground">
-              Inquire Now
+              Enquire Now
             </h2>
             <p className="text-sm text-foreground/70 leading-relaxed">
-              Have an idea for a delicate line art composition, microscopic icon, or a discreet secret tattoo? Fill out our form, or message Suprith directly on WhatsApp.
+              Have an idea for a delicate line art composition, microscopic icon, or a discreet secret tattoo? Fill out our form, or message artist directly on WhatsApp.
             </p>
 
             <div className="space-y-4 pt-4 border-t border-border-color text-xs text-foreground/60">

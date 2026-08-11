@@ -23,7 +23,7 @@ export default function ContactForm() {
       setStatus("error");
       return;
     }
-    
+
     setStatus("submitting");
     // Simulate API Submission
     setTimeout(() => {
@@ -39,7 +39,7 @@ export default function ContactForm() {
           <CheckCircle2 className="text-gold-primary" size={60} />
           <h3 className="font-serif-header text-lg font-bold text-foreground">Message Sent</h3>
           <p className="text-sm text-foreground/70 max-w-sm">
-            Thank you for reaching out. Suprith will review your inquiry and get in touch with you shortly.
+            Thank you for reaching out. Artist will review your enquiry and get in touch with you shortly.
           </p>
           <button
             onClick={() => setStatus("idle")}
@@ -107,7 +107,7 @@ export default function ContactForm() {
             className="w-full flex items-center justify-center gap-2 bg-neutral-dark text-background text-xs uppercase tracking-widest font-bold py-4 transition-smooth hover:bg-gold-primary cursor-pointer"
           >
             <Send size={14} />
-            <span>{status === "submitting" ? "Sending..." : "Submit Inquiry"}</span>
+            <span>{status === "submitting" ? "Sending..." : "Submit Enquiry"}</span>
           </button>
 
           <div className="relative flex py-2 items-center">
@@ -132,7 +132,7 @@ export default function ContactForm() {
               className="flex items-center justify-center gap-2 border border-gold-primary text-gold-primary hover:bg-gold-primary hover:text-white transition-smooth text-xs uppercase tracking-widest font-bold py-3.5"
             >
               <PhoneCall size={14} />
-              <span>Call Suprith</span>
+              <span>Call Artist</span>
             </a>
           </div>
         </form>
