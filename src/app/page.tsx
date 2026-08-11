@@ -11,27 +11,27 @@ export default function HomePage() {
       slug: "line-art",
       title: "Line Art Tattoos",
       description: "Mathematical precision, geometric curves, and fluid continuous lines that flow with the body.",
-      image: "/images/line_art_2.png",
+      image: "/images/Norse_Compass_Forearm.jpg",
     },
     {
       slug: "minimal",
       title: "Minimalist Tattoos",
       description: "Subtle, microscopic statements of celestial symbols, script lettering, and abstract icons.",
-      image: "/images/minimal_1.png",
+      image: "/images/Minimal_floral_shoulder.jpg",
     },
     {
-      slug: "hidden",
-      title: "Hidden Tattoos",
-      description: "Discreet placements (behind the ear, inner finger, or ribcage) that are personal secrets.",
-      image: "/images/hidden_1.png",
+      slug: "classic",
+      title: "Classic Tattoos",
+      description: "Discreet placements (behind the ear, thigh, or ribcage) that are personal secrets.",
+      image: "/images/Classic_thigh.jpg",
     },
   ];
 
   const previewWorks = [
-    { src: "/images/line_art_1.png", title: "Geometric Forearm", category: "Line Art" },
-    { src: "/images/minimal_1.png", title: "Micro Crescent", category: "Minimal" },
-    { src: "/images/line_art_2.png", title: "Botanical Shoulder", category: "Line Art" },
-    { src: "/images/minimal_2.png", title: "Cursive Calligraphy", category: "Minimal" },
+    { src: "/images/Minimal_Balance_Arm.jpg", title: "Balanced Mind", category: "Minimal" },
+    { src: "/images/Classic_Hour_Glass.jpg", title: "Time & Transformation", category: "Classic" },
+    { src: "/images/Classic_thigh.jpg", title: "Mythical Guardian", category: "Classic" },
+    { src: "/images/Minimal_Rose_Forearm.jpg", title: "Timeless Rose", category: "Minimal" },
   ];
 
   return (
@@ -81,7 +81,7 @@ export default function HomePage() {
           <div className="lg:col-span-5 relative w-full aspect-[4/5] lg:aspect-square max-w-md mx-auto border border-border-color bg-background p-3">
             <div className="relative w-full h-full overflow-hidden border border-border-color">
               <Image
-                src="/images/Screenshot 2026-06-20 182851.png"
+                src="/images/hero_bg.png"
                 alt="Minimalist fine line art tattoo by Suprith"
                 fill
                 priority
@@ -101,7 +101,7 @@ export default function HomePage() {
           <div className="md:col-span-5 relative aspect-[4/5] max-w-sm w-full mx-auto border border-border-color p-3">
             <div className="relative w-full h-full overflow-hidden border border-border-color bg-neutral-light">
               <Image
-                src="/images/artist_avatar.png"
+                src="/images/Artist_Profile.jpg"
                 alt="Tattoo Artist Suprith"
                 fill
                 className="object-cover"

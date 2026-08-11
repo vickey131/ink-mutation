@@ -41,8 +41,9 @@ const stylesData: Record<string, StyleDetail> = {
     healingInstructions:
       "Because line art tattoos inflict minimal trauma to the skin, healing is relatively fast. Keep the area clean, wash with mild soap twice daily, apply a thin layer of recommended ointment, and avoid scratching or soaking in water for 10–14 days.",
     images: [
-      { src: "/images/line_art_1.png", title: "Geometric Compass Grid", placement: "Inner Forearm" },
-      { src: "/images/line_art_2.png", title: "Continuous Botanical Stem", placement: "Back Shoulder" },
+      { src: "/images/Line_art_Wanderlust.jpg", title: "Wanderlust", placement: "Inner Forearm" },
+      { src: "/images/Norse_Compass_Forearm.jpg", title: "Norse Compass", placement: "Inner Forearm" },
+      { src: "/images/Line_art_Name_Tattoo.jpg", title: "The Boundless Love", placement: "Inner Forearm, Neck" },
     ],
   },
   "minimal": {
@@ -64,31 +65,44 @@ const stylesData: Record<string, StyleDetail> = {
     healingInstructions:
       "Minimal tattoos heal exceptionally quickly. Apply healing balm sparingly for the first week. Ensure the tattoo is protected from tight clothing rubbing against it, and avoid direct exposure to sunlight during the initial 2 weeks.",
     images: [
-      { src: "/images/minimal_1.png", title: "Micro Celestial Crescent", placement: "Inner Wrist" },
-      { src: "/images/minimal_2.png", title: "Serendipity Lettering", placement: "Outer Ankle" },
+      { src: "/images/Minimal_floral_shoulder.jpg", title: "Elegant Bloom", placement: "Shoulder" },
+      { src: "/images/Minimal_Wild_Free.jpg", title: "Wild & Free", placement: "Shoulder, Hip" },
+      { src: "/images/Minimal_Zen_Mode.jpg", title: "The Universe Within", placement: "Arm" },
+      { src: "/images/Minimal_Balance_Arm.jpg", title: "Balanced Mind", placement: "Outer Wrist, Inner fore-arm, Leg" },
+      { src: "/images/Minimal_Rose_Forearm.jpg", title: "Timeless Rose", placement: "Forearm" },
+      { src: "/images/Minimal_Balance.jpg", title: "The Centered Mind", placement: "Forearm" },
+      { src: "/images/Minimal_Stars.jpg", title: "Astral Path", placement: "Dorsal Hand" },
+      { src: "/images/Minimal_Semicolon.jpg", title: "The Flow and Pause", placement: "Arm" },
+      { src: "/images/Classic_Divine_Cosmic.jpg", title: "The Divine Cosmic Vision", placement: "Fore-arm" },
+      { src: "/images/Minimal_Scattered_Growth.jpg", title: "The Divine Cosmic Vision", placement: "Fore-arm" },
+      { src: "/images/Minimal_Panda.jpg", title: "The Gentle Pause", placement: "Arm and Hip" },
+      { src: "/images/Minimal_Balance_Back.jpg", title: "Laurels of Equanimity", placement: "Upper back, Chest" },
     ],
   },
-  "hidden": {
-    slug: "hidden",
-    title: "Hidden Tattoos",
+  "classic": {
+    slug: "classic",
+    title: "Classic Tattoos",
     tagline: "Your personal stories, kept as beautiful body secrets.",
     description:
-      "Hidden tattoos are strategically placed in naturally concealed regions of the body. Designed to be seen only when you choose, they remain an intimate secret between you and your skin.",
+      "Classic tattoos are strategically placed in naturally concealed regions of the body. Designed to be seen only when you choose, they remain an intimate secret between you and your skin.",
     extendedDescription:
-      "A hidden tattoo is a personal expression meant solely for the wearer. Placed in discreet zones like behind the ear, inside the finger, or along the ribcage, these tattoos are hidden from sight in ordinary posture or professional clothing. Suprith collaborates with you to identify custom placements that align with your natural anatomy, selecting fine outlines or symbols that tucked away beautifully.",
+      "A Classic tattoo is a personal expression meant solely for the wearer. Placed in discreet zones like behind the ear, inside the finger, or along the ribcage. Suprith collaborates with you to identify custom placements that align with your natural anatomy, selecting fine outlines or symbols that tucked away beautifully.",
     characteristics: [
-      "Discreet placements hidden by hair, clothing, or natural posture.",
       "Fine line scripts, miniature symbols, or coordinates.",
       "Intimate design scale adapted for secret placements.",
       "Completely workplace-safe and easily concealed.",
     ],
     placementAdvice:
-      "Recommended hidden placements include the side of the ribcage, behind the ear line, under the hairline, the inner lip, or along the inner side of fingers.",
+      "Recommended placements include the side of the ribcage, behind the ear line, under the hairline, the inner lip, or along the inner side of fingers.",
     healingInstructions:
       "Healing times depend heavily on placement. Behind-the-ear tattoos heal fast, while inner-finger tattoos require extra care because of constant hand washing. Clean gently and keep moisturized, taking care to avoid harsh chemicals or friction.",
     images: [
-      { src: "/images/hidden_1.png", title: "Ear Zodiac Constellation", placement: "Behind the Ear" },
-      { src: "/images/hidden_2.png", title: "Hidden Index Flower Stem", placement: "Inner Index Finger" },
+      { src: "/images/Classic_thigh.jpg", title: "Mythical Guardian", placement: "Back or Thigh" },
+      { src: "/images/Classic_Tirisulam.jpg", title: "Eternal Protection", placement: "Inner Index Finger" },
+      { src: "/images/Classic_Thai_Mask_Forearm.jpg", title: "Fierce Oni", placement: "Inner Fore arm" },
+      { src: "/images/Classic_Hour_Glass.jpg", title: "Time & Transformation", placement: "Inner Fore arm, Leg" },
+      { src: "/images/Classic_Phoenix_Forearm.jpg", title: "The Fire & Venom", placement: "Inner Fore arm" },
+      { src: "/images/Classic_Tiger_Arm.jpg.jpg", title: "The Fierceand Serene", placement: "Arm" },
     ],
   },
 };
@@ -98,7 +112,7 @@ export function generateStaticParams() {
   return [
     { slug: "line-art" },
     { slug: "minimal" },
-    { slug: "hidden" },
+    { slug: "classic" },
   ];
 }
 
@@ -110,7 +124,7 @@ interface PageProps {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const resolvedParams = await params;
   const data = stylesData[resolvedParams.slug];
-  
+
   if (!data) {
     return {
       title: "Style Not Found",
@@ -163,10 +177,10 @@ export default async function StyleDetailPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
       />
-      
+
       <article className="py-24 bg-background min-h-screen">
         <div className="max-w-4xl mx-auto px-6 space-y-12">
-          
+
           {/* Back Button */}
           <Link
             href="/styles"
@@ -201,7 +215,7 @@ export default async function StyleDetailPage({ params }: PageProps) {
 
           {/* Characteristics & Healing Info */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-6">
-            
+
             {/* Characteristics */}
             <div className="bg-neutral-light border border-border-color p-6 space-y-4">
               <h3 className="font-serif-header text-xs font-bold tracking-widest text-foreground uppercase flex items-center gap-2">
@@ -239,7 +253,7 @@ export default async function StyleDetailPage({ params }: PageProps) {
             <h3 className="font-serif-header text-sm font-bold text-foreground tracking-widest uppercase">
               Representative Artwork
             </h3>
-            
+
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {data.images.map((img, idx) => (
                 <div
@@ -270,7 +284,7 @@ export default async function StyleDetailPage({ params }: PageProps) {
               <h4 className="text-sm font-bold text-foreground mb-1">Interested in this style?</h4>
               <p className="text-xs text-foreground/50">Discuss your custom design with Suprith today.</p>
             </div>
-            
+
             <div className="flex gap-4 w-full sm:w-auto">
               <Link
                 href="/#contact"

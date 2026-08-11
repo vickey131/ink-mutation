@@ -19,38 +19,38 @@ const styleCategories: StyleCategory[] = [
     title: "Line Art Tattoos",
     tagline: "Precision geometry, continuous outlines, and clean architectural strokes.",
     description:
-      "Line art focuses entirely on the power of the outline. By stripping away heavy shading and color fills, the design relies purely on thickness control, geometry, and perfect continuity to stand out.",
-    image: "/images/line_art_1.png",
+      "Mathematical precision, geometric curves, and fluid continuous lines that flow with the body.",
+    image: "/images/Norse_Compass_Forearm.jpg",
     characteristics: [
       "Varying needle sizes for single-pass clean lines",
       "Symmetrical patterns, floral outlines, and geometric structures",
       "No color shading, relying on negative skin space for contrast",
       "High design precision requiring unmatched needle control",
     ],
-    tips: "Perfect for outer forearms, shoulders, and calf muscles where lines flow naturally with muscle movements.",
+    tips: "Perfect for inner & outer forearms, shoulders, and calf muscles where lines flow naturally with muscle movements.",
   },
   {
     slug: "minimal",
     title: "Minimal Tattoos",
     tagline: "Microscopic icons, celestial alignments, and subtle custom calligraphy.",
     description:
-      "Minimalist tattoos emphasize simplicity and size. Often tiny and dainty, they pack a meaningful story into a microscopic space. They require extreme precision as there is no room for error.",
-    image: "/images/minimal_1.png",
+      "A graceful fine-line floral tattoo with flowing strokes, designed to capture simplicity and timeless elegance.",
+    image: "/images/Minimal_floral_shoulder.jpg",
     characteristics: [
       "Micro-lettering and delicate cursive script",
       "Microscopic celestial symbols (moons, stars, constellations)",
       "Elegant shapes like single-dots, tiny hearts, or waves",
       "Very fast healing process due to minimal skin trauma",
     ],
-    tips: "Best suited for wrists, ankles, collarbones, and fingers where small details can be appreciated up close.",
+    tips: "Best suited for shoulders, ankles, collarbones, and inner forearm where small details can be appreciated up close.",
   },
   {
-    slug: "hidden",
-    title: "Hidden Tattoos",
+    slug: "classic",
+    title: "Classic Tattoos",
     tagline: "Discreet personal secrets, tucked away placements, and tiny secret designs.",
     description:
       "Hidden tattoos are meant only for you and those you choose to show. Placed in discreet, easily covered regions of the body, they remain your secret. Suprith works with you to choose the perfect hidden placement.",
-    image: "/images/hidden_1.png",
+    image: "/images/Classic_thigh.jpg",
     characteristics: [
       "Behind-the-ear tiny stardust or star signs",
       "Inner-finger stems, symbols, or word-scripts",
@@ -65,7 +65,7 @@ export default function StylesPage() {
   return (
     <section className="py-24 bg-background min-h-screen">
       <div className="max-w-7xl mx-auto px-6 space-y-20">
-        
+
         {/* Page Header */}
         <div className="text-center space-y-4 max-w-xl mx-auto">
           <span className="text-xs uppercase tracking-[0.2em] text-gold-primary font-semibold block">
@@ -86,15 +86,13 @@ export default function StylesPage() {
             return (
               <div
                 key={style.slug}
-                className={`grid grid-cols-1 lg:grid-cols-12 gap-12 items-center ${
-                  isEven ? "" : "lg:flex-row-reverse"
-                }`}
+                className={`grid grid-cols-1 lg:grid-cols-12 gap-12 items-center ${isEven ? "" : "lg:flex-row-reverse"
+                  }`}
               >
                 {/* Image Column */}
                 <div
-                  className={`lg:col-span-5 relative aspect-square border border-border-color p-3 bg-neutral-light ${
-                    isEven ? "lg:order-1" : "lg:order-2"
-                  }`}
+                  className={`lg:col-span-5 relative aspect-square border border-border-color p-3 bg-neutral-light ${isEven ? "lg:order-1" : "lg:order-2"
+                    }`}
                 >
                   <div className="relative w-full h-full border border-border-color overflow-hidden bg-background">
                     <Image
@@ -109,9 +107,8 @@ export default function StylesPage() {
 
                 {/* Text Content Column */}
                 <div
-                  className={`lg:col-span-7 space-y-6 ${
-                    isEven ? "lg:order-2" : "lg:order-1"
-                  }`}
+                  className={`lg:col-span-7 space-y-6 ${isEven ? "lg:order-2" : "lg:order-1"
+                    }`}
                 >
                   <div className="space-y-2">
                     <span className="text-xs font-bold text-gold-primary uppercase tracking-wider">

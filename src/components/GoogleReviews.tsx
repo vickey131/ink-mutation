@@ -22,8 +22,8 @@ const reviewsData: Review[] = [
     rating: 5,
     date: "1 week ago",
     text: "Suprith is an absolute genius with line art. I got a geometric compass design on my forearm and the lines are incredibly clean and razor-sharp. The studio environment is peaceful, hygienic, and very professional. Highly recommended!",
-    tattooImage: "/images/line_art_1.png",
-    tattooAlt: "Fine line geometric tattoo by Suprith",
+    tattooImage: "/images/Line_art_Wanderlust.jpg",
+    tattooAlt: "Line art Wanderlust by Suprith",
     styleName: "Line Art",
   },
   {
@@ -33,8 +33,8 @@ const reviewsData: Review[] = [
     rating: 5,
     date: "3 weeks ago",
     text: "Absolutely love my microscopic crescent moon tattoo! Suprith's attention to detail is remarkable. I wanted something very tiny and subtle, and he executed it flawlessly. It healed perfectly too. Best minimal tattoo artist in Bangalore!",
-    tattooImage: "/images/minimal_1.png",
-    tattooAlt: "Micro crescent moon tattoo by Suprith",
+    tattooImage: "/images/Minimal_floral_shoulder.jpg",
+    tattooAlt: "Elegant Bloom tattoo by Suprith",
     styleName: "Minimal",
   },
   {
@@ -44,7 +44,7 @@ const reviewsData: Review[] = [
     rating: 5,
     date: "1 month ago",
     text: "Got a custom botanical single-line flower on my shoulder. Suprith is incredibly patient, helped me refine the size, and the studio hygiene is top-notch. It looks so elegant and light. Couldn't have asked for a better experience.",
-    tattooImage: "/images/line_art_2.png",
+    tattooImage: "/images/Norse_Compass_Forearm.jpg",
     tattooAlt: "Single-line botanical shoulder tattoo by Suprith",
     styleName: "Line Art",
   },
@@ -55,9 +55,9 @@ const reviewsData: Review[] = [
     rating: 5,
     date: "2 months ago",
     text: "If you want a discreet or hidden tattoo, Suprith is the go-to artist. I got a tiny script lettering behind my ear, and it is completely hidden unless I pull my hair back. The script is delicate, legible, and exactly what I envisioned.",
-    tattooImage: "/images/minimal_2.png",
-    tattooAlt: "Behind ear script tattoo by Suprith",
-    styleName: "Hidden / Script",
+    tattooImage: "/images/Minimal_Wild_Free.jpg",
+    tattooAlt: "Wild & Free tattoo by Suprith",
+    styleName: "Minimal",
   },
 ];
 
@@ -68,7 +68,7 @@ export default function GoogleReviews() {
   return (
     <section id="reviews" className="py-24 bg-neutral-light border-y border-border-color">
       <div className="max-w-7xl mx-auto px-6">
-        
+
         {/* Section Header & Summary */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-16">
           <div>
@@ -79,7 +79,7 @@ export default function GoogleReviews() {
               Google Reviews
             </h2>
           </div>
-          
+
           {/* Trust Banner */}
           <div className="flex items-center gap-6 bg-background border border-border-color p-5 self-start md:self-auto">
             <div className="text-center">
