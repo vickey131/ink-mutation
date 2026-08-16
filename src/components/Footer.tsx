@@ -8,23 +8,20 @@ export default function Footer() {
   return (
     <footer className="bg-neutral-light border-t border-border-color pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
-        
+
         {/* About column */}
         <div className="md:col-span-2 space-y-6">
           <Link href="/" className="flex flex-col">
             <span className="font-serif-header text-xl md:text-2xl font-bold text-foreground leading-none tracking-widest">
               INK MUTATION
             </span>
-            <span className="text-[10px] tracking-[0.25em] text-gold-primary uppercase font-medium mt-1">
-              BY SUPRITH
-            </span>
           </Link>
           <p className="text-sm text-foreground/70 leading-relaxed max-w-sm">
-            High-precision line art, custom micro-minimalist, and elegant hidden tattoos designed to elevate your personal story into beautiful body art.
+            High-precision line art, custom micro-minimalist, and elegant Classic tattoos designed to elevate your personal story into beautiful body art.
           </p>
           <div className="flex space-x-4">
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/ink_mutation_tattoo/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/60 hover:text-gold-primary transition-smooth"
@@ -37,18 +34,17 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="https://facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="mailto:inkmutation@gmail.com"
               className="text-foreground/60 hover:text-gold-primary transition-smooth"
-              aria-label="Facebook"
+              aria-label="Email"
             >
               <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                <rect x="2" y="4" width="20" height="16" rx="2" ry="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
               </svg>
             </a>
             <a
-              href="https://youtube.com"
+              href="https://www.youtube.com/@Inkmutation"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/60 hover:text-gold-primary transition-smooth"
@@ -105,33 +101,32 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="text-sm text-foreground/70 hover:text-gold-primary transition-smooth leading-relaxed"
               >
-                5th Cross Rd, KHB Colony, Koramangala 5th Block, Bengaluru, KA 560095
+                30, 1st Main, 4th Cross Road, Venkateshwara Layout, S.G. Palya, Bengaluru, Karnataka 560029
               </a>
             </li>
             <li className="flex items-center gap-3">
               <Phone size={18} className="text-gold-primary shrink-0" />
               <a
-                href="tel:+919791577511"
+                href="tel:+917019000191"
                 className="text-sm text-foreground/70 hover:text-gold-primary transition-smooth"
               >
-                +91 97915 77511
+                +91 70190 00191
               </a>
             </li>
             <li className="flex items-center gap-3">
               <Mail size={18} className="text-gold-primary shrink-0" />
               <a
-                href="mailto:info@inkmutation.com"
+                href="mailto:inkmutation@gmail.com"
                 className="text-sm text-foreground/70 hover:text-gold-primary transition-smooth"
               >
-                info@inkmutation.com
+                inkmutation@gmail.com
               </a>
             </li>
             <li className="flex items-start gap-3">
               <Clock size={18} className="text-gold-primary shrink-0 mt-0.5" />
-              <span className="text-sm text-foreground/70 leading-normal">
-                Tue - Sun: 11:00 AM - 8:00 PM
-                <br />
-                Mondays: Closed
+              <span className="text-sm text-foreground/70 leading-normal whitespace-nowrap">
+                Monday – Friday: 10:00 AM – 8:00 PM <br />
+                Saturday – Sunday: 10:00 AM – 10:00 PM <br />
               </span>
             </li>
           </ul>

@@ -19,23 +19,23 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "Ink Mutation Tattoo Studio Koramangala",
+    default: "Ink Mutation Tattoo Studio S.G. Palya",
     template: "%s | Ink Mutation Tattoo Studio",
   },
   description:
-    "Premium tattoo portfolio of artist at Ink Mutation Tattoo Studio in Koramangala, Bengaluru. Specializing in elegant fine-line art, microscopic minimal tattoos, and creative hidden tattoos.",
+    "Premium tattoo portfolio of artist at Ink Mutation Tattoo Studio in S.G. Palya, Bengaluru. Specializing in elegant fine-line art, microscopic minimal tattoos, and Classic tattoos.",
   keywords: [
     "Ink Mutation Tattoo Studio",
-    "Koramangala Tattoo Studio",
+    "S.G. Palya Tattoo Studio",
     "Tattoos in Bangalore",
     "Line Art Tattoos Bangalore",
-    "Minimal Tattoos Koramangala",
-    "Hidden Tattoos Bangalore",
+    "Minimal Tattoos S.G. Palya",
+    "Classic Tattoos Bangalore",
     "Best tattoo studio Bangalore",
   ],
   authors: [{ name: "Suprith" }],
   openGraph: {
-    title: "Ink Mutation Tattoo Studio Koramangala",
+    title: "Ink Mutation Tattoo Studio S.G. Palya",
     description:
       "Premium fine-line art, minimal, and Classic tattoos in Bengaluru. Explore our gallery and studio.",
     url: "https://maps.app.goo.gl/3oG4DmSFPRNEfD4B7",
@@ -53,9 +53,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ink Mutation Tattoo Studio Koramangala",
+    title: "Ink Mutation Tattoo Studio S.G. Palya",
     description:
-      "Premium tattoo art in Bengaluru. Custom Line Art, Minimal, and Hidden tattoos.",
+      "Premium tattoo art in Bengaluru. Custom Line Art, Minimal, and Classic tattoos.",
     images: ["/images/hero_bg.png"],
   },
   metadataBase: new URL("https://maps.app.goo.gl/3oG4DmSFPRNEfD4B7"),
@@ -87,11 +87,11 @@ export default function RootLayout({
     "image": "https://maps.app.goo.gl/3oG4DmSFPRNEfD4B7", // Fallback to maps URL link
     "@id": "https://maps.app.goo.gl/3oG4DmSFPRNEfD4B7",
     "url": "https://maps.app.goo.gl/3oG4DmSFPRNEfD4B7",
-    "telephone": "+919791577511",
+    "telephone": "+917019000191",
     "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "5th Cross Rd, KHB Colony, Koramangala 5th Block",
+      "streetAddress": "5th Cross Rd, KHB Colony, S.G. Palya 5th Block",
       "addressLocality": "Bengaluru",
       "addressRegion": "Karnataka",
       "postalCode": "560095",

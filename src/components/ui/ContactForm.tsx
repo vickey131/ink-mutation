@@ -118,7 +118,7 @@ export default function ContactForm() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <a
-              href="https://wa.me/919791577511?text=Hi%20Suprith,%20I'm%20interested%20in%20discussing%20a%20tattoo%20design!"
+              href="https://wa.me/917019000191?text=Hi%20Suprith,%20I'm%20interested%20in%20discussing%20a%20tattoo%20design!"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 border border-[#25D366] text-[#25D366] hover:bg-[#25D366] hover:text-white transition-smooth text-xs uppercase tracking-widest font-bold py-3.5"
@@ -128,7 +128,7 @@ export default function ContactForm() {
             </a>
 
             <a
-              href="tel:+919791577511"
+              href="tel:+917019000191"
               className="flex items-center justify-center gap-2 border border-gold-primary text-gold-primary hover:bg-gold-primary hover:text-white transition-smooth text-xs uppercase tracking-widest font-bold py-3.5"
             >
               <PhoneCall size={14} />

@@ -17,25 +17,25 @@ interface Review {
 const reviewsData: Review[] = [
   {
     id: "rev-1",
-    author: "Rohan Kamath",
+    author: "Aswanth K",
     avatar: "/images/profile-picture.png",
     rating: 5,
-    date: "1 week ago",
-    text: "Absolute genius with line art. I got a geometric compass design on my forearm and the lines are incredibly clean and razor-sharp. The studio environment is peaceful, hygienic, and very professional. Highly recommended!",
+    date: "4 weeks ago",
+    text: "Absolutely amazing experience at Ink Mutation! From consultation to the final tattoo, everything was handled with real care and creativity. The artist - Suprith, took time to understand exactly what I wanted and delivered a design that exceeded my expectations.",
     tattooImage: "/images/Line_art_Wanderlust.jpg",
     tattooAlt: "Line art Wanderlust by Suprith",
     styleName: "Line Art",
   },
   {
     id: "rev-2",
-    author: "Neha Reddy",
+    author: "Ravi Shankar",
     avatar: "/images/profile-picture.png",
     rating: 5,
-    date: "3 weeks ago",
-    text: "Absolutely love my microscopic crescent moon tattoo! Suprith's attention to detail is remarkable. I wanted something very tiny and subtle, and he executed it flawlessly. It healed perfectly too. Best minimal tattoo artist in Bangalore!",
-    tattooImage: "/images/Minimal_floral_shoulder.jpg",
-    tattooAlt: "Elegant Bloom tattoo by Suprith",
-    styleName: "Minimal",
+    date: "5 weeks ago",
+    text: "Clean setup, skilled hands, and a calm, professional approach throughout. The artist took the time to understand the design and executed it with great precision. Happy with the result!! 😀",
+    tattooImage: "/images/Classic_Hour_Glass.jpg",
+    tattooAlt: "Classic Hour Glass tattoo",
+    styleName: "Classic",
   },
   {
     id: "rev-3",
@@ -43,14 +43,14 @@ const reviewsData: Review[] = [
     avatar: "/images/profile-picture.png",
     rating: 5,
     date: "1 month ago",
-    text: "Got a custom botanical single-line flower on my shoulder. Artist is incredibly patient, helped me refine the size, and the studio hygiene is top-notch. It looks so elegant and light. Couldn't have asked for a better experience.",
+    text: "Really happy with my experience at Ink Mutation tattoo studio and the artist. Great atmosphere, professional artist, clean and hygiene studio and amazing attention to details. The tattoo came out exactly the way I wanted. Highly recommend this studio.",
     tattooImage: "/images/Norse_Compass_Forearm.jpg",
     tattooAlt: "Single-line botanical shoulder tattoo by Suprith",
     styleName: "Line Art",
   },
   {
     id: "rev-4",
-    author: "Arjun Rao",
+    author: "Arjun Chinnasami",
     avatar: "/images/profile-picture.png",
     rating: 5,
     date: "2 months ago",
@@ -62,8 +62,8 @@ const reviewsData: Review[] = [
 ];
 
 export default function GoogleReviews() {
-  const averageRating = 4.9;
-  const totalReviews = 186;
+  const averageRating = 5.0;
+  const totalReviews = 12;
 
   return (
     <section id="reviews" className="py-24 bg-neutral-light border-y border-border-color">
