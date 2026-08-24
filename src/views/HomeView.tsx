@@ -279,7 +279,7 @@ export default function HomePage() {
                 <div>
                   <h4 className="text-xs uppercase tracking-wider font-bold text-foreground mb-1">Studio Hours</h4>
                   <p className="text-sm text-foreground/75 leading-relaxed">
-                    Monday – Friday: 10:00 AM – 8:00 PM <br />
+                    Monday – Friday: 11:00 AM – 9:00 PM <br />
                     Saturday – Sunday: 10:00 AM – 10:00 PM <br />
                     {/* <span className="text-red-500 font-semibold text-xs uppercase tracking-wider mt-1 block">Mondays: Closed</span> */}
                   </p>

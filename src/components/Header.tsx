@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, X, ArrowUpRight } from "lucide-react";
+import { Menu, X, ArrowUpRight, Phone } from "lucide-react";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -50,6 +50,14 @@ export default function Header() {
               </Link>
             );
           })}
+
+          <a
+            href="tel:+917019000191"
+            className="flex items-center gap-1.5 bg-neutral-dark text-background text-xs tracking-wider uppercase font-semibold px-5 py-2.5 rounded-none transition-smooth hover:bg-gold-primary hover:text-background"
+          >
+            <Phone size={14} />
+            <span>+91 70190 00191</span>
+          </a>
 
           <Link
             href="/#contact"

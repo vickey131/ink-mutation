@@ -3,7 +3,7 @@ import { Cinzel, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import WhatsAppButton from "@/components/WhatsAppButton";
+import FloatingCTA from "@/components/FloatingCTA";
 
 // Load Google Fonts
 const cinzel = Cinzel({
@@ -129,7 +129,7 @@ export default function RootLayout({
         <Header />
         <main className="grow">{children}</main>
         <Footer />
-        <WhatsAppButton />
+        <FloatingCTA />
       </body>
     </html>
   );
