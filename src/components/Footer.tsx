@@ -55,6 +55,17 @@ export default function Footer() {
                 <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
               </svg>
             </a>
+            <a
+              href="https://pin.it/1XQiYxOEx"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-foreground/60 hover:text-gold-primary transition-smooth"
+              aria-label="Pinterest"
+            >
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M12 2a10 10 0 0 0-3.3 19.4c-.1-.9-.2-2.2 0-3.2l1.2-5.1c-.3-.6-.4-1.4-.4-2.2 0-2 1.2-3.6 2.7-3.6 1.3 0 1.9 1 1.9 2.2 0 1.3-.8 3.2-1.2 5-.4 1.6.8 2.9 2.4 2.9 2.9 0 5.1-3.1 5.1-7.5 0-3.9-2.8-6.7-6.9-6.7-4.6 0-7.3 3.5-7.3 7 0 1.4.5 2.9 1.2 3.7.1.1.1.3 0 .5l-.5 1.9c-.1.3-.3.4-.6.2-2-1-3.3-3.9-3.3-6.3 0-5.1 3.7-9.8 10.7-9.8 5.6 0 10 4 10 9.4 0 5.6-3.5 10.1-8.4 10.1-1.6 0-3.2-.8-3.7-1.8l-1 3.9c-.4 1.4-1.2 3.1-1.9 4.1A10 10 0 1 0 12 2z"></path>
+              </svg>
+            </a>
           </div>
         </div>
 
@@ -138,7 +149,13 @@ export default function Footer() {
         <p className="text-xs text-foreground/50">
           &copy; {currentYear} Ink Mutation Tattoo Studio. All rights reserved.
         </p>
-        <div className="flex space-x-6">
+        <div className="flex flex-wrap gap-x-6 gap-y-2 justify-center md:justify-end">
+          <Link href="/terms-conditions" className="text-xs text-foreground/50 hover:text-gold-primary transition-smooth">
+            Terms &amp; Conditions
+          </Link>
+          <Link href="/privacy-policy" className="text-xs text-foreground/50 hover:text-gold-primary transition-smooth">
+            Privacy Policy
+          </Link>
           <Link href="/sitemap.xml" className="text-xs text-foreground/50 hover:text-gold-primary transition-smooth">
             Sitemap
           </Link>

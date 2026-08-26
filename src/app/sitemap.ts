@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Update this to your actual production domain when deployed
-  const baseUrl = "https://inkmutation.com";
+  const baseUrl = "https://www.inkmutation.com";
 
   const routes = [
     "",
@@ -10,7 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/styles",
     "/styles/line-art",
     "/styles/minimal",
-    "/styles/hidden",
+    "/styles/classic",
   ];
 
   return routes.map((route) => ({

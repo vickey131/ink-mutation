@@ -83,7 +83,7 @@ const stylesData: Record<string, StyleDetail> = {
       { src: "/images/Classic_Thai_Mask_Forearm.jpg", title: "Fierce Oni", placement: "Inner Fore arm" },
       { src: "/images/Classic_Hour_Glass.jpg", title: "Time & Transformation", placement: "Inner Fore arm, Leg" },
       { src: "/images/Classic_Phoenix_Forearm.jpg", title: "The Fire & Venom", placement: "Inner Fore arm" },
-      { src: "/images/Classic_Tiger_Arm.jpg.jpg", title: "The Fierceand Serene", placement: "Arm" },
+      { src: "/images/Classic_Tiger_Arm.jpg.jpg", title: "The Fierce and Serene", placement: "Arm" },
     ],
   },
 };
