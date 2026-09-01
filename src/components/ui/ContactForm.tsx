@@ -3,6 +3,9 @@
 import React, { useState } from "react";
 import { MessageSquare, PhoneCall, Send, CheckCircle2 } from "lucide-react";
 
+const APPS_SCRIPT_URL =
+  "https://script.google.com/macros/s/AKfycbxV5DiBPu7cnT8lTpeXeUeMF_gmmP3SaHS4soyBqV9bji-gTpwh8oTjiIp9TOQM_93R/exec";
+
 export default function ContactForm() {
   const [formData, setFormData] = useState({
     name: "",
@@ -15,6 +18,7 @@ export default function ContactForm() {
   });
 
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
+  const [errorMessage, setErrorMessage] = useState<string>("");
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
@@ -23,16 +27,37 @@ export default function ContactForm() {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!formData.name || !formData.phone || !formData.email) {
       setStatus("error");
+      setErrorMessage("Please fill in all required fields.");
       return;
     }
 
     setStatus("submitting");
-    // Simulate API Submission
-    setTimeout(() => {
+    setErrorMessage("");
+
+    try {
+      const payload = {
+        name: formData.name.trim(),
+        email: formData.email.trim(),
+        phone: formData.phone.trim(),
+        location: formData.location.trim(),
+        age: formData.age.trim(),
+        gender: formData.gender.trim(),
+        message: formData.message.trim(),
+      };
+
+      await fetch(APPS_SCRIPT_URL, {
+        method: "POST",
+        mode: "no-cors",
+        headers: {
+          "Content-Type": "text/plain;charset=utf-8", // text/plain prevents CORS preflight while sending JSON string
+        },
+        body: JSON.stringify(payload),
+      });
+
       setStatus("success");
       setFormData({
         name: "",
@@ -43,7 +68,11 @@ export default function ContactForm() {
         location: "",
         message: "",
       });
-    }, 1200);
+    } catch (error) {
+      console.error("Error submitting contact form:", error);
+      setStatus("error");
+      setErrorMessage("Failed to send your message. Please try again.");
+    }
   };
 
   return (
@@ -56,7 +85,10 @@ export default function ContactForm() {
             Thank you for reaching out. Artist will review your enquiry and get in touch with you shortly.
           </p>
           <button
-            onClick={() => setStatus("idle")}
+            onClick={() => {
+              setStatus("idle");
+              setErrorMessage("");
+            }}
             className="text-xs uppercase tracking-widest font-bold text-gold-primary hover:text-gold-accent mt-4 transition-smooth cursor-pointer"
           >
             Send Another Message
@@ -183,7 +215,9 @@ export default function ContactForm() {
           </div>
 
           {status === "error" && (
-            <p className="text-xs text-red-500 font-medium">Please fill in all required fields.</p>
+            <p className="text-xs text-red-500 font-medium">
+              {errorMessage || "Please fill in all required fields."}
+            </p>
           )}
 
           <button
