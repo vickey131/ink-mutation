@@ -6,20 +6,26 @@ import { MessageSquare, PhoneCall, Send, CheckCircle2 } from "lucide-react";
 export default function ContactForm() {
   const [formData, setFormData] = useState({
     name: "",
+    email: "",
     phone: "",
+    age: "",
+    gender: "",
+    location: "",
     message: "",
   });
 
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
+  ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!formData.name || !formData.phone) {
+    if (!formData.name || !formData.phone || !formData.email) {
       setStatus("error");
       return;
     }
@@ -28,7 +34,15 @@ export default function ContactForm() {
     // Simulate API Submission
     setTimeout(() => {
       setStatus("success");
-      setFormData({ name: "", phone: "", message: "" });
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        age: "",
+        gender: "",
+        location: "",
+        message: "",
+      });
     }, 1200);
   };
 
@@ -43,48 +57,119 @@ export default function ContactForm() {
           </p>
           <button
             onClick={() => setStatus("idle")}
-            className="text-xs uppercase tracking-widest font-bold text-gold-primary hover:text-gold-accent mt-4 transition-smooth"
+            className="text-xs uppercase tracking-widest font-bold text-gold-primary hover:text-gold-accent mt-4 transition-smooth cursor-pointer"
           >
             Send Another Message
           </button>
         </div>
       ) : (
         <form onSubmit={handleSubmit} className="space-y-6">
-          <div>
-            <label htmlFor="name" className="block text-xs uppercase tracking-widest font-semibold text-foreground/80 mb-2">
-              Your Name *
-            </label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              required
-              value={formData.name}
-              onChange={handleChange}
-              placeholder="e.g. Aditi Sharma"
-              className="w-full bg-background border border-border-color px-4 py-3 text-sm focus:outline-none focus:border-gold-primary transition-smooth"
-            />
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label htmlFor="name" className="block text-xs uppercase tracking-widest font-semibold text-foreground/80 mb-2">
+                Your Name *
+              </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                value={formData.name}
+                onChange={handleChange}
+                placeholder="e.g. Tony Stark"
+                className="w-full bg-background border border-border-color px-4 py-3 text-sm focus:outline-none focus:border-gold-primary transition-smooth text-foreground"
+              />
+            </div>
+
+            <div>
+              <label htmlFor="email" className="block text-xs uppercase tracking-widest font-semibold text-foreground/80 mb-2">
+                Email Address *
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                value={formData.email}
+                onChange={handleChange}
+                placeholder="e.g. tonystark@avengers.com"
+                className="w-full bg-background border border-border-color px-4 py-3 text-sm focus:outline-none focus:border-gold-primary transition-smooth text-foreground"
+              />
+            </div>
           </div>
 
-          <div>
-            <label htmlFor="phone" className="block text-xs uppercase tracking-widest font-semibold text-foreground/80 mb-2">
-              Phone Number *
-            </label>
-            <input
-              type="tel"
-              id="phone"
-              name="phone"
-              required
-              value={formData.phone}
-              onChange={handleChange}
-              placeholder="e.g. +91 98765 43210"
-              className="w-full bg-background border border-border-color px-4 py-3 text-sm focus:outline-none focus:border-gold-primary transition-smooth"
-            />
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label htmlFor="phone" className="block text-xs uppercase tracking-widest font-semibold text-foreground/80 mb-2">
+                Phone Number *
+              </label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                required
+                value={formData.phone}
+                onChange={handleChange}
+                placeholder="e.g. +91 98765 43210"
+                className="w-full bg-background border border-border-color px-4 py-3 text-sm focus:outline-none focus:border-gold-primary transition-smooth text-foreground"
+              />
+            </div>
+
+            <div>
+              <label htmlFor="location" className="block text-xs uppercase tracking-widest font-semibold text-foreground/80 mb-2">
+                Location / City
+              </label>
+              <input
+                type="text"
+                id="location"
+                name="location"
+                value={formData.location}
+                onChange={handleChange}
+                placeholder="e.g. Koramangala, Bengaluru"
+                className="w-full bg-background border border-border-color px-4 py-3 text-sm focus:outline-none focus:border-gold-primary transition-smooth text-foreground"
+              />
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label htmlFor="age" className="block text-xs uppercase tracking-widest font-semibold text-foreground/80 mb-2">
+                Age
+              </label>
+              <input
+                type="number"
+                id="age"
+                name="age"
+                min="18"
+                max="100"
+                value={formData.age}
+                onChange={handleChange}
+                placeholder="e.g. 24"
+                className="w-full bg-background border border-border-color px-4 py-3 text-sm focus:outline-none focus:border-gold-primary transition-smooth text-foreground"
+              />
+            </div>
+
+            <div>
+              <label htmlFor="gender" className="block text-xs uppercase tracking-widest font-semibold text-foreground/80 mb-2">
+                Gender
+              </label>
+              <select
+                id="gender"
+                name="gender"
+                value={formData.gender}
+                onChange={handleChange}
+                className="w-full bg-background border border-border-color px-4 py-3 text-sm focus:outline-none focus:border-gold-primary transition-smooth text-foreground cursor-pointer"
+              >
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
           </div>
 
           <div>
             <label htmlFor="message" className="block text-xs uppercase tracking-widest font-semibold text-foreground/80 mb-2">
-              Message / Tattoo Details
+              Tattoo Details / Questions
             </label>
             <textarea
               id="message"
@@ -93,7 +178,7 @@ export default function ContactForm() {
               value={formData.message}
               onChange={handleChange}
               placeholder="Describe your design idea, placement, and size preference..."
-              className="w-full bg-background border border-border-color px-4 py-3 text-sm focus:outline-none focus:border-gold-primary transition-smooth resize-none"
+              className="w-full bg-background border border-border-color px-4 py-3 text-sm focus:outline-none focus:border-gold-primary transition-smooth resize-none text-foreground"
             />
           </div>
 
