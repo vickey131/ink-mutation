@@ -72,6 +72,7 @@ export default function ContactForm() {
       });
 
       // Redirect user to the Thank You page
+      window.scrollTo({ top: 0, left: 0, behavior: "instant" });
       router.push("/thank-you");
     } catch (error) {
       console.error("Error submitting contact form:", error);

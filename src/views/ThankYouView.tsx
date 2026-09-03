@@ -5,6 +5,10 @@ import Link from "next/link";
 import { Check, Phone, MessageSquare, ArrowRight, ArrowUpRight, ChevronDown, Clock, MapPin } from "lucide-react";
 
 export default function ThankYouView() {
+  React.useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+  }, []);
+
   return (
     <div className="bg-background min-h-[calc(100vh-80px)]">
       {/* 1. Top Sub-header / Status Bar */}
