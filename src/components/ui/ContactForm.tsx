@@ -1,12 +1,14 @@
 "use client";
 
 import React, { useState } from "react";
+import { useRouter } from "next/navigation";
 import { MessageSquare, PhoneCall, Send, CheckCircle2 } from "lucide-react";
 
 const APPS_SCRIPT_URL =
   "https://script.google.com/macros/s/AKfycbxV5DiBPu7cnT8lTpeXeUeMF_gmmP3SaHS4soyBqV9bji-gTpwh8oTjiIp9TOQM_93R/exec";
 
 export default function ContactForm() {
+  const router = useRouter();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -68,6 +70,9 @@ export default function ContactForm() {
         location: "",
         message: "",
       });
+
+      // Redirect user to the Thank You page
+      router.push("/thank-you");
     } catch (error) {
       console.error("Error submitting contact form:", error);
       setStatus("error");
