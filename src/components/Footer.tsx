@@ -146,9 +146,14 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto px-6 border-t border-border-color mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-        <p className="text-xs text-foreground/50">
-          &copy; {currentYear} Ink Mutation Tattoo Studio. All rights reserved.
-        </p>
+        <div className="flex flex-row gap-4">
+          <p className="text-xs text-foreground/50">
+            &copy; {currentYear} Ink Mutation Tattoo Studio. All rights reserved.
+          </p>
+          <p className="text-xs text-foreground/50">
+            V · 2026
+          </p>
+        </div>
         <div className="flex flex-wrap gap-x-6 gap-y-2 justify-center md:justify-end">
           <Link href="/terms-conditions" className="text-xs text-foreground/50 hover:text-gold-primary transition-smooth">
             Terms &amp; Conditions
