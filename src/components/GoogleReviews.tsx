@@ -66,7 +66,7 @@ export default function GoogleReviews() {
   const totalReviews = 12;
 
   return (
-    <section id="reviews" className="py-24 bg-neutral-light border-y border-border-color">
+    <section id="reviews" className="pt-12 pb-24 bg-neutral-light border-b border-border-color">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Section Header & Summary */}

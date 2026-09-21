@@ -9,6 +9,7 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/portfolio", label: "Portfolio" },
   { href: "/styles", label: "Specialties" },
+  { href: "/blog", label: "Blogs" },
 ];
 
 export default function Header() {
@@ -30,15 +31,14 @@ export default function Header() {
           <span className="font-serif-header text-xl md:text-2xl font-bold text-foreground leading-none tracking-widest">
             INK MUTATION
           </span>
-          {/* <span className="text-[10px] tracking-[0.25em] text-gold-primary uppercase font-medium mt-1">
-            BY SUPRITH
-          </span> */}
         </Link>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center space-x-10">
           {navLinks.map((link) => {
-            const isActive = pathname === link.href;
+            const isActive =
+              pathname === link.href ||
+              (link.href !== "/" && pathname.startsWith(link.href));
             return (
               <Link
                 key={link.href}
@@ -83,7 +83,9 @@ export default function Header() {
         <div className="md:hidden w-full bg-background border-b border-border-color py-6 px-6 transition-smooth">
           <nav className="flex flex-col space-y-4">
             {navLinks.map((link) => {
-              const isActive = pathname === link.href;
+              const isActive =
+                pathname === link.href ||
+                (link.href !== "/" && pathname.startsWith(link.href));
               return (
                 <Link
                   key={link.href}

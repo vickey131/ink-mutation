@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { Check, Phone, MessageSquare, ArrowRight, ArrowUpRight, ChevronDown, Clock, MapPin } from "lucide-react";
+import { Check, Phone, MessageSquare, ArrowRight, ArrowUpRight, ChevronDown } from "lucide-react";
 
 export default function ThankYouView() {
   React.useEffect(() => {
@@ -131,7 +131,7 @@ export default function ThankYouView() {
                   View The Portfolio
                 </h3>
                 <p className="text-xs sm:text-sm text-foreground/70 leading-relaxed">
-                  Browse healed work across fine-line, minimal statements, and classic tattoo arts crafted by Suprith.
+                  Browse healed work across fine-line, minimal statements, and classic tattoo arts crafted by the artist.
                 </p>
               </div>
 

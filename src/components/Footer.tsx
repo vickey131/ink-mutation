@@ -91,6 +91,11 @@ export default function Footer() {
               </Link>
             </li>
             <li>
+              <Link href="/blog" className="text-sm text-foreground/70 hover:text-gold-primary transition-smooth">
+                Blogs
+              </Link>
+            </li>
+            <li>
               <Link href="/#contact" className="text-sm text-foreground/70 hover:text-gold-primary transition-smooth">
                 Get in Touch
               </Link>

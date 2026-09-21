@@ -1,9 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Sparkles, ShieldCheck, MapPin, Clock, CheckCircle } from "lucide-react";
+import { ArrowRight, ShieldCheck, MapPin, Clock, CheckCircle } from "lucide-react";
 import GoogleReviews from "@/components/GoogleReviews";
 import ContactForm from "@/components/ui/ContactForm";
+import BlogSection from "@/components/BlogSection";
 
 export default function HomePage() {
   const specialties = [
@@ -245,7 +246,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 5. Google Reviews Section (Imported Component) */}
+      {/* 5. Studio Blogs & Guides */}
+      <BlogSection />
+
+      {/* 6. Google Reviews Section (Imported Component) */}
       <GoogleReviews />
 
       {/* 6. Studio Overview (Location & Hours) */}
