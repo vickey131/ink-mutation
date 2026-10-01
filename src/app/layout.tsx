@@ -20,26 +20,26 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "Ink Mutation Tattoo Studio S.G. Palya",
+    default: "Ink Mutation Tattoo Studio Koramangala",
     template: "%s | Ink Mutation Tattoo Studio",
   },
   description:
-    "Premium tattoo portfolio of artist at Ink Mutation Tattoo Studio in S.G. Palya, Bengaluru. Specializing in elegant fine-line art, microscopic minimal tattoos, and Classic tattoos.",
+    "Premium tattoo portfolio of artist at Ink Mutation Tattoo Studio in Koramangala, Bengaluru. Specializing in elegant fine-line art, microscopic minimal tattoos, and Classic tattoos.",
   keywords: [
     "Ink Mutation Tattoo Studio",
-    "S.G. Palya Tattoo Studio",
+    "Koramangala Tattoo Studio",
     "Tattoos in Bangalore",
     "Line Art Tattoos Bangalore",
-    "Minimal Tattoos S.G. Palya",
+    "Minimal Tattoos Koramangala",
     "Classic Tattoos Bangalore",
     "Best tattoo studio Bangalore",
   ],
   authors: [{ name: "Suprith" }],
   openGraph: {
-    title: "Ink Mutation Tattoo Studio S.G. Palya",
+    title: "Ink Mutation Tattoo Studio Koramangala",
     description:
       "Premium fine-line art, minimal, and Classic tattoos in Bengaluru. Explore our gallery and studio.",
-    url: "https://maps.app.goo.gl/3oG4DmSFPRNEfD4B7",
+    url: "https://maps.app.goo.gl/oqEpEMGptPVPubvk7?g_st=ac",
     siteName: "Ink Mutation Tattoo Studio",
     images: [
       {
@@ -54,12 +54,12 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ink Mutation Tattoo Studio S.G. Palya",
+    title: "Ink Mutation Tattoo Studio Koramangala",
     description:
       "Premium tattoo art in Bengaluru. Custom Line Art, Minimal, and Classic tattoos.",
     images: ["/images/hero_bg.png"],
   },
-  metadataBase: new URL("https://maps.app.goo.gl/3oG4DmSFPRNEfD4B7"),
+  metadataBase: new URL("https://maps.app.goo.gl/oqEpEMGptPVPubvk7?g_st=ac"),
   robots: {
     index: true,
     follow: true,
@@ -85,14 +85,14 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "TattooParlor",
     "name": "Ink Mutation Tattoo Studio",
-    "image": "https://maps.app.goo.gl/3oG4DmSFPRNEfD4B7", // Fallback to maps URL link
-    "@id": "https://maps.app.goo.gl/3oG4DmSFPRNEfD4B7",
-    "url": "https://maps.app.goo.gl/3oG4DmSFPRNEfD4B7",
+    "image": "https://maps.app.goo.gl/oqEpEMGptPVPubvk7?g_st=ac", // Fallback to maps URL link
+    "@id": "https://maps.app.goo.gl/oqEpEMGptPVPubvk7?g_st=ac",
+    "url": "https://maps.app.goo.gl/oqEpEMGptPVPubvk7?g_st=ac",
     "telephone": "+917019000191",
     "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "5th Cross Rd, KHB Colony, S.G. Palya 5th Block",
+      "streetAddress": "153, 1st floor, Sheela Arcade, 1st Main Rd, KHB Colony, 7th Block, Koramangala",
       "addressLocality": "Bengaluru",
       "addressRegion": "Karnataka",
       "postalCode": "560095",
@@ -100,8 +100,8 @@ export default function RootLayout({
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 12.934827,
-      "longitude": 77.622538,
+      "latitude": 12.934901,
+      "longitude": 77.620349,
     },
     "openingHoursSpecification": [
       {

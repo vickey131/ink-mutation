@@ -32,10 +32,10 @@ export default function StyleDetailView({ data }: { data: StyleDetail }) {
       "name": "Ink Mutation Tattoo Studio",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "30, 1st Main, 4th Cross Road, Venkateshwara Layout, S.G. Palya  ",
+        "streetAddress": "153, 1st floor, Sheela Arcade, 1st Main Rd, KHB Colony, 7th Block, Koramangala",
         "addressLocality": "Bengaluru",
         "addressRegion": "Karnataka",
-        "postalCode": "560029",
+        "postalCode": "560095",
         "addressCountry": "IN",
       },
     },

@@ -4,7 +4,7 @@ import BlogView from "@/views/BlogView";
 export const metadata: Metadata = {
   title: "Tattoo Blogs & Guides | Ink Mutation Tattoo Studio Bangalore",
   description:
-    "Expert tattoo guides, aftercare protocols, fine-line needle precision techniques, and first-time tattoo advice from artist Suprith at Ink Mutation, S.G. Palya, Bengaluru.",
+    "Expert tattoo guides, aftercare protocols, fine-line needle precision techniques, and first-time tattoo advice from artist Suprith at Ink Mutation, Koramangala, Bengaluru.",
   openGraph: {
     title: "Tattoo Blogs & Guides | Ink Mutation Tattoo Studio",
     description:

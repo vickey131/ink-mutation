@@ -72,7 +72,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "The Ink Mutation Studio Standard",
         paragraphs: [
-          "Every fine-line piece executed at our S.G. Palya private studio is preceded by a personalized anatomical assessment. We evaluate your skin elasticity, grain direction, and daily lifestyle to determine whether your envisioned placement will honor the art over a lifetime.",
+          "Every fine-line piece executed at our Koramangala private studio is preceded by a personalized anatomical assessment. We evaluate your skin elasticity, grain direction, and daily lifestyle to determine whether your envisioned placement will honor the art over a lifetime.",
         ],
       },
     ],

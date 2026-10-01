@@ -112,12 +112,12 @@ export default function Footer() {
             <li className="flex items-start gap-3">
               <MapPin size={18} className="text-gold-primary shrink-0 mt-0.5" />
               <a
-                href="https://maps.app.goo.gl/3oG4DmSFPRNEfD4B7?g_st=ac"
+                href="https://maps.app.goo.gl/oqEpEMGptPVPubvk7?g_st=ac"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-foreground/70 hover:text-gold-primary transition-smooth leading-relaxed"
               >
-                30, 1st Main, 4th Cross Road, Venkateshwara Layout, S.G. Palya, Bengaluru, Karnataka 560029
+                153, 1st floor, Sheela Arcade, 1st Main Rd, KHB Colony, 7th Block, Koramangala, Bengaluru, Karnataka 560095
               </a>
             </li>
             <li className="flex items-center gap-3">
@@ -170,7 +170,7 @@ export default function Footer() {
             Sitemap
           </Link>
           <a
-            href="https://maps.app.goo.gl/3oG4DmSFPRNEfD4B7?g_st=ac"
+            href="https://maps.app.goo.gl/oqEpEMGptPVPubvk7?g_st=ac"
             target="_blank"
             rel="noopener noreferrer"
             className="text-xs text-foreground/50 hover:text-gold-primary transition-smooth"

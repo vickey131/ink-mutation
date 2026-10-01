@@ -313,9 +313,9 @@ export default function PrivacyPolicyPage() {
               <br />
               <strong>Ink Mutation Tattoo Studio</strong>
               <br />
-              5th Cross Road, KHB Colony
+              153, 1st floor, Sheela Arcade
               <br />
-              S.G. Palya 5th Block
+              1st Main Rd, KHB Colony, 7th Block, Koramangala
               <br />
               Bengaluru, Karnataka &ndash; 560095, India
               <br />

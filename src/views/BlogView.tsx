@@ -139,7 +139,7 @@ export default function BlogView() {
               Have a Custom Tattoo Concept in Mind?
             </h3>
             <p className="text-sm text-foreground/75 leading-relaxed">
-              Bring your ideas to Ink Mutation Studio in S.G. Palya, Bengaluru. We specialize in delicate fine lines, minimal symbols, and discreet placements.
+              Bring your ideas to Ink Mutation Studio in Koramangala, Bengaluru. We specialize in delicate fine lines, minimal symbols, and discreet placements.
             </p>
           </div>
           <div className="flex flex-wrap items-center justify-center gap-4 pt-2">

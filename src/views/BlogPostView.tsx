@@ -201,7 +201,7 @@ export default function BlogPostView({ post }: BlogPostViewProps) {
               Bring Your Story To Ink Mutation
             </h3>
             <p className="text-xs md:text-sm text-background/75 leading-relaxed">
-              Every appointment is treated with complete sterile single-use care and personalized anatomical design. Schedule your consultation at our S.G. Palya studio in Bengaluru.
+              Every appointment is treated with complete sterile single-use care and personalized anatomical design. Schedule your consultation at our Koramangala studio in Bengaluru.
             </p>
           </div>
 

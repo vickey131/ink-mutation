@@ -63,7 +63,7 @@ const reviewsData: Review[] = [
 
 export default function GoogleReviews() {
   const averageRating = 5.0;
-  const totalReviews = 12;
+  const totalReviews = 13;
 
   return (
     <section id="reviews" className="pt-12 pb-24 bg-neutral-light border-b border-border-color">
@@ -96,7 +96,7 @@ export default function GoogleReviews() {
                 ))}
               </div>
               <a
-                href="https://maps.app.goo.gl/3oG4DmSFPRNEfD4B7?g_st=ac"
+                href="https://maps.app.goo.gl/oqEpEMGptPVPubvk7?g_st=ac"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-xs font-semibold text-foreground/80 hover:text-gold-primary transition-smooth block mt-1"
@@ -178,7 +178,7 @@ export default function GoogleReviews() {
         {/* CTA to Google page */}
         <div className="text-center mt-12">
           <a
-            href="https://maps.app.goo.gl/3oG4DmSFPRNEfD4B7?g_st=ac"
+            href="https://maps.app.goo.gl/oqEpEMGptPVPubvk7?g_st=ac"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-xs uppercase tracking-widest font-bold border-b border-foreground pb-1 text-foreground hover:text-gold-primary hover:border-gold-primary transition-smooth"

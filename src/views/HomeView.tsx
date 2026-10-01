@@ -273,7 +273,7 @@ export default function HomePage() {
                 <div>
                   <h4 className="text-xs uppercase tracking-wider font-bold text-foreground mb-1">Address</h4>
                   <p className="text-sm text-foreground/75 leading-relaxed">
-                    30, 1st Main, 4th Cross Road, Venkateshwara Layout, S.G. Palya, Bengaluru, Karnataka 560029
+                    153, 1st floor, Sheela Arcade, 1st Main Rd, KHB Colony, 7th Block, Koramangala, Bengaluru, Karnataka 560095
                   </p>
                 </div>
               </div>
@@ -303,7 +303,7 @@ export default function HomePage() {
 
             <div className="pt-2">
               <a
-                href="https://maps.app.goo.gl/3oG4DmSFPRNEfD4B7?g_st=ac"
+                href="https://maps.app.goo.gl/oqEpEMGptPVPubvk7?g_st=ac"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 border border-foreground text-foreground text-xs uppercase tracking-widest font-bold px-6 py-3.5 transition-smooth hover:bg-foreground hover:text-background"
@@ -324,7 +324,7 @@ export default function HomePage() {
               allowFullScreen={true}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Google Maps Location of Ink Mutation Tattoo Studio"
+              title="Google Maps Location of Ink Mutation Tattoo Studio, Koramangala"
               className="border border-border-color"
             ></iframe>
           </div>
