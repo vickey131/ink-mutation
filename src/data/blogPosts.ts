@@ -20,6 +20,8 @@ export interface BlogPost {
     paragraphs: string[];
     proTip?: string;
   }[];
+  metaTitle?: string;
+  metaDescription?: string;
 }
 
 export const blogPosts: BlogPost[] = [
