@@ -19,24 +19,27 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!post) {
     return {
-      title: "Article Not Found | Ink Mutation Tattoo Studio",
+      title: "Article Not Found | Mutant Tattoo Studio",
     };
   }
 
+  const pageTitle = post.metaTitle || `${post.title} | Mutant Blogs`;
+  const pageDescription = post.metaDescription || post.excerpt;
+
   return {
-    title: `${post.title} | Ink Mutation Blogs`,
-    description: post.excerpt,
+    title: pageTitle,
+    description: pageDescription,
     openGraph: {
-      title: `${post.title} | Ink Mutation Tattoo Studio`,
-      description: post.excerpt,
+      title: pageTitle,
+      description: pageDescription,
       images: [post.coverImage],
       type: "article",
       authors: [post.author.name],
     },
     twitter: {
       card: "summary_large_image",
-      title: post.title,
-      description: post.excerpt,
+      title: pageTitle,
+      description: pageDescription,
       images: [post.coverImage],
     },
   };

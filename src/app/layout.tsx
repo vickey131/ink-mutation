@@ -20,13 +20,13 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "Ink Mutation Tattoo Studio Koramangala",
-    template: "%s | Ink Mutation Tattoo Studio",
+    default: "Mutant Tattoo Studio Koramangala",
+    template: "%s | Mutant Tattoo Studio",
   },
   description:
-    "Premium tattoo portfolio of artist at Ink Mutation Tattoo Studio in Koramangala, Bengaluru. Specializing in elegant fine-line art, microscopic minimal tattoos, and Classic tattoos.",
+    "Premium tattoo portfolio of artist at Mutant Tattoo Studio in Koramangala, Bengaluru. Specializing in elegant fine-line art, microscopic minimal tattoos, and Classic tattoos.",
   keywords: [
-    "Ink Mutation Tattoo Studio",
+    "Mutant Tattoo Studio",
     "Koramangala Tattoo Studio",
     "Tattoos in Bangalore",
     "Line Art Tattoos Bangalore",
@@ -36,17 +36,17 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Suprith" }],
   openGraph: {
-    title: "Ink Mutation Tattoo Studio Koramangala",
+    title: "Mutant Tattoo Studio Koramangala",
     description:
       "Premium fine-line art, minimal, and Classic tattoos in Bengaluru. Explore our gallery and studio.",
     url: "https://maps.app.goo.gl/oqEpEMGptPVPubvk7?g_st=ac",
-    siteName: "Ink Mutation Tattoo Studio",
+    siteName: "Mutant Tattoo Studio",
     images: [
       {
         url: "/images/hero_bg.png",
         width: 1200,
         height: 630,
-        alt: "Ink Mutation Tattoo Studio Showcase",
+        alt: "Mutant Tattoo Studio Showcase",
       },
     ],
     locale: "en_IN",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ink Mutation Tattoo Studio Koramangala",
+    title: "Mutant Tattoo Studio Koramangala",
     description:
       "Premium tattoo art in Bengaluru. Custom Line Art, Minimal, and Classic tattoos.",
     images: ["/images/hero_bg.png"],
@@ -84,7 +84,7 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "TattooParlor",
-    "name": "Ink Mutation Tattoo Studio",
+    "name": "Mutant Tattoo Studio",
     "image": "https://maps.app.goo.gl/oqEpEMGptPVPubvk7?g_st=ac", // Fallback to maps URL link
     "@id": "https://maps.app.goo.gl/oqEpEMGptPVPubvk7?g_st=ac",
     "url": "https://maps.app.goo.gl/oqEpEMGptPVPubvk7?g_st=ac",

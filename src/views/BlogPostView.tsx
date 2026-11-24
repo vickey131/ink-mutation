@@ -120,7 +120,7 @@ export default function BlogPostView({ post }: BlogPostViewProps) {
           </div>
         </div>
         <p className="text-[11px] text-foreground/50 text-right mt-2 italic">
-          Artwork photographed at Ink Mutation Tattoo Studio, Bengaluru.
+          Artwork photographed at Mutant Tattoo Studio, Bengaluru.
         </p>
       </div>
 
@@ -198,7 +198,7 @@ export default function BlogPostView({ post }: BlogPostViewProps) {
               Private Studio Session
             </span>
             <h3 className="font-serif-header text-2xl md:text-3xl font-bold text-background">
-              Bring Your Story To Ink Mutation
+              Bring Your Story To Mutant Tattoo Studio
             </h3>
             <p className="text-xs md:text-sm text-background/75 leading-relaxed">
               Every appointment is treated with complete sterile single-use care and personalized anatomical design. Schedule your consultation at our Koramangala studio in Bengaluru.

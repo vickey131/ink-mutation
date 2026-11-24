@@ -50,7 +50,7 @@ export default function HomePage() {
             </h1>
 
             <p className="text-base text-foreground/75 leading-relaxed max-w-xl">
-              Welcome to Ink Mutation, the private studio of tattoo artist <strong className="font-semibold text-foreground">Suprith</strong>.
+              Welcome to Mutant Tattoo Studio, the private studio of tattoo artist <strong className="font-semibold text-foreground">Suprith</strong>.
               We focus on the elegance of fine lines, tiny custom icons, and discreet placements.
             </p>
 
@@ -118,7 +118,7 @@ export default function HomePage() {
               With years of experience in high-precision skin art, Suprith has built a reputation for executing tattoos that require the utmost control. He treats skin as a canvas for delicate, subtle, and permanent design.
             </p>
             <p className="text-sm text-foreground/75 leading-relaxed">
-              His work at <strong className="font-semibold text-foreground">Ink Mutation Studio</strong> rejects cluttered designs in favor of plenty of white space, thin black ink work, and microscopic details that blend harmoniously with your natural anatomy.
+              His work at <strong className="font-semibold text-foreground">Mutant Tattoo Studio</strong> rejects cluttered designs in favor of plenty of white space, thin black ink work, and microscopic details that blend harmoniously with your natural anatomy.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
@@ -260,7 +260,7 @@ export default function HomePage() {
           <div className="lg:col-span-5 space-y-8">
             <div>
               <span className="text-xs uppercase tracking-[0.2em] text-gold-primary font-semibold block mb-3">
-                Visit Ink Mutation
+                Visit Mutant Tattoo Studio
               </span>
               <h2 className="font-serif-header text-3xl font-bold text-foreground">
                 Studio Space
@@ -324,7 +324,7 @@ export default function HomePage() {
               allowFullScreen={true}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Google Maps Location of Ink Mutation Tattoo Studio, Koramangala"
+              title="Google Maps Location of Mutant Tattoo Studio, Koramangala"
               className="border border-border-color"
             ></iframe>
           </div>

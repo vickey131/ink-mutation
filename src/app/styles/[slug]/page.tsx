@@ -114,10 +114,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   return {
     title: `${data.title} | Suprith Tattoo Artist Bangalore`,
-    description: `Explore Suprith's expertise in custom ${data.title} at Ink Mutation Tattoo Studio, Koramangala. Read characteristics, placement tips, and view portfolio images.`,
+    description: `Explore Suprith's expertise in custom ${data.title} at Mutant Tattoo Studio, Koramangala. Read characteristics, placement tips, and view portfolio images.`,
     openGraph: {
-      title: `${data.title} by Suprith | Ink Mutation`,
-      description: `Premium ${data.title} portfolio and details at Ink Mutation Tattoo Studio in Bengaluru.`,
+      title: `${data.title} by Suprith | Mutant Tattoo Studio`,
+      description: `Premium ${data.title} portfolio and details at Mutant Tattoo Studio in Bengaluru.`,
       images: [data.images[0]?.src || "/images/hero_bg.png"],
     },
   };

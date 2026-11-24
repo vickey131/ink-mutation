@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "Learn how Ink Mutation Tattoo Studio collects, uses, stores, and protects your personal information when you visit our website or book our services.",
+    "Learn how Mutant Tattoo Studio collects, uses, stores, and protects your personal information when you visit our website or book our services.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -28,7 +28,7 @@ export default function PrivacyPolicyPage() {
         {/* Intro */}
         <div className="text-sm text-foreground/80 leading-relaxed space-y-4">
           <p>
-            Ink Mutation Tattoo Studio (&ldquo;Ink Mutation&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo; or &ldquo;our&rdquo;) respects your privacy and is committed to protecting the personal information you share with us.
+            Mutant Tattoo Studio (&ldquo;Mutant Tattoo Studio&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo; or &ldquo;our&rdquo;) respects your privacy and is committed to protecting the personal information you share with us.
           </p>
           <p>
             This Privacy Policy explains how we collect, use, store and protect your information when you visit{" "}
@@ -74,7 +74,7 @@ export default function PrivacyPolicyPage() {
 
               <div>
                 <h3 className="font-serif-header text-sm font-semibold text-foreground">e. Payment and Transaction Information</h3>
-                <p className="text-foreground/70">We may collect payment status, transaction reference numbers, invoices, deposit details and billing information. Where payments are processed through a third-party payment provider, the provider may collect your card, bank or UPI information directly. Ink Mutation generally does not store complete payment credentials.</p>
+                <p className="text-foreground/70">We may collect payment status, transaction reference numbers, invoices, deposit details and billing information. Where payments are processed through a third-party payment provider, the provider may collect your card, bank or UPI information directly. Mutant Tattoo Studio generally does not store complete payment credentials.</p>
               </div>
 
               <div>
@@ -214,7 +214,7 @@ export default function PrivacyPolicyPage() {
               THIRD-PARTY LINKS AND SERVICES
             </h2>
             <p>
-              Our website may include links to services such as Google Maps, Instagram, Facebook, WhatsApp or payment platforms. These services operate under their own privacy policies. Ink Mutation is not responsible for the privacy practices, availability or content of third-party websites or platforms.
+              Our website may include links to services such as Google Maps, Instagram, Facebook, WhatsApp or payment platforms. These services operate under their own privacy policies. Mutant Tattoo Studio is not responsible for the privacy practices, availability or content of third-party websites or platforms.
             </p>
           </div>
 
@@ -253,7 +253,7 @@ export default function PrivacyPolicyPage() {
               CHILDREN AND MINORS
             </h2>
             <p>
-              Our tattoo services are intended only for persons who meet the studio&rsquo;s minimum age requirements. Persons under 18 should not submit booking, health or identification information without contacting the studio first. Ink Mutation reserves the right to refuse tattoo services to minors, even where parental or guardian consent is offered.
+              Our tattoo services are intended only for persons who meet the studio&rsquo;s minimum age requirements. Persons under 18 should not submit booking, health or identification information without contacting the studio first. Mutant Tattoo Studio reserves the right to refuse tattoo services to minors, even where parental or guardian consent is offered.
             </p>
             <p>
               If we learn that a minor&rsquo;s personal information was collected improperly, we will take reasonable steps to delete it.
@@ -311,7 +311,7 @@ export default function PrivacyPolicyPage() {
             <p>
               For privacy questions, requests or complaints, contact:
               <br />
-              <strong>Ink Mutation Tattoo Studio</strong>
+              <strong>Mutant Tattoo Studio</strong>
               <br />
               153, 1st floor, Sheela Arcade
               <br />
@@ -326,7 +326,7 @@ export default function PrivacyPolicyPage() {
                 https://www.inkmutation.com/
               </a>
               <br />
-              <strong>Privacy/Grievance Contact:</strong> Suprith / Ink Mutation Tattoo Studio
+              <strong>Privacy/Grievance Contact:</strong> Suprith / Mutant Tattoo Studio
               <br />
               Email:{" "}
               <a href="mailto:inkmutation@gmail.com" className="text-gold-primary hover:underline">

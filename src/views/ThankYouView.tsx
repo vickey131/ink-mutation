@@ -59,7 +59,7 @@ export default function ThankYouView() {
           {/* Core Message */}
           <p className="text-sm sm:text-base text-foreground/75 leading-relaxed max-w-xl mx-auto font-normal">
             Your tattoo inquiry is in. It means a lot that you&apos;re trusting{" "}
-            <strong className="font-semibold text-foreground">Ink Mutation</strong> with your next piece — the artist will be in touch very soon.
+            <strong className="font-semibold text-foreground">Mutant Tattoo Studio</strong> with your next piece — the artist will be in touch very soon.
           </p>
 
           {/* Primary Quick Contact Action CTAs */}

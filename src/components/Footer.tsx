@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="md:col-span-2 space-y-6">
           <Link href="/" className="flex flex-col">
             <span className="font-serif-header text-xl md:text-2xl font-bold text-foreground leading-none tracking-widest">
-              INK MUTATION
+              MUTANT TATTOO STUDIO
             </span>
           </Link>
           <p className="text-sm text-foreground/70 leading-relaxed max-w-sm">
@@ -153,7 +153,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 border-t border-border-color mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex flex-row gap-4">
           <p className="text-xs text-foreground/50">
-            &copy; {currentYear} Ink Mutation Tattoo Studio. All rights reserved.
+            &copy; {currentYear} Mutant Tattoo Studio. All rights reserved.
           </p>
           <p className="text-xs text-foreground/50">
             V · 2026

@@ -29,7 +29,7 @@ export default function StyleDetailView({ data }: { data: StyleDetail }) {
     "serviceType": "Tattoo Services",
     "provider": {
       "@type": "TattooParlor",
-      "name": "Ink Mutation Tattoo Studio",
+      "name": "Mutant Tattoo Studio",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "153, 1st floor, Sheela Arcade, 1st Main Rd, KHB Colony, 7th Block, Koramangala",

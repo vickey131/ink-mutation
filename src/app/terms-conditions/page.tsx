@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Terms & Conditions",
   description:
-    "Review the Terms and Conditions governing your enquiries, consultations, bookings, and services with Ink Mutation Tattoo Studio in Bengaluru.",
+    "Review the Terms and Conditions governing your enquiries, consultations, bookings, and services with Mutant Tattoo Studio in Bengaluru.",
 };
 
 export default function TermsConditionsPage() {
@@ -32,7 +32,7 @@ export default function TermsConditionsPage() {
             <a href="https://www.inkmutation.com/" className="text-gold-primary hover:underline">
               https://www.inkmutation.com/
             </a>{" "}
-            and your enquiries, consultations, bookings and services with Ink Mutation Tattoo Studio (&ldquo;Ink Mutation&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo; or &ldquo;our&rdquo;).
+            and your enquiries, consultations, bookings and services with Mutant Tattoo Studio (&ldquo;Mutant Tattoo Studio&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo; or &ldquo;our&rdquo;).
           </p>
           <p>
             By using this website, submitting an enquiry, paying a booking deposit or confirming an appointment, you agree to these Terms. If you do not agree, please do not use the website or book our services.
@@ -47,7 +47,7 @@ export default function TermsConditionsPage() {
               STUDIO INFORMATION
             </h2>
             <p>
-              Ink Mutation is a private tattoo studio operated from:
+              Mutant Tattoo Studio is a private tattoo studio operated from:
               <br />
               <strong>153, 1st floor, Sheela Arcade</strong>
               <br />
@@ -71,7 +71,7 @@ export default function TermsConditionsPage() {
             </h2>
             <ul className="list-disc pl-5 space-y-2">
               <li>You must be legally capable of entering into a binding agreement to book our services.</li>
-              <li>Ink Mutation generally provides tattoo services only to clients aged 18 years or above. A valid government-issued photo identification document may be required before the procedure.</li>
+              <li>Mutant Tattoo Studio generally provides tattoo services only to clients aged 18 years or above. A valid government-issued photo identification document may be required before the procedure.</li>
               <li>We reserve the right to refuse services to a minor even where parental or guardian consent is offered.</li>
               <li>You must provide accurate information regarding your identity, age, health, tattoo requirements and appointment details.</li>
             </ul>
@@ -94,7 +94,7 @@ export default function TermsConditionsPage() {
               Consultations may be offered without charge unless otherwise communicated. Extensive design development, repeated revisions or specialist preparation may require a separate design fee or booking deposit.
             </p>
             <p>
-              Ink Mutation may decline any request that is unsafe, unlawful, discriminatory, offensive, technically unsuitable, inconsistent with the artist&rsquo;s style or likely to infringe another person&rsquo;s intellectual-property rights.
+              Mutant Tattoo Studio may decline any request that is unsafe, unlawful, discriminatory, offensive, technically unsuitable, inconsistent with the artist&rsquo;s style or likely to infringe another person&rsquo;s intellectual-property rights.
             </p>
           </div>
 
@@ -138,7 +138,7 @@ export default function TermsConditionsPage() {
                 </ul>
               </li>
               <li>Repeated rescheduling may result in cancellation of the project.</li>
-              <li>If Ink Mutation must reschedule due to illness, emergency, equipment issues or another circumstance beyond reasonable control, we will offer a reasonable alternative date. Our liability will ordinarily be limited to rescheduling the appointment or refunding the amount paid for services not provided.</li>
+              <li>If Mutant Tattoo Studio must reschedule due to illness, emergency, equipment issues or another circumstance beyond reasonable control, we will offer a reasonable alternative date. Our liability will ordinarily be limited to rescheduling the appointment or refunding the amount paid for services not provided.</li>
             </ul>
           </div>
 
@@ -181,7 +181,7 @@ export default function TermsConditionsPage() {
             <ul className="list-disc pl-5 space-y-2">
               <li>You are responsible for carefully reviewing the final design, stencil, spelling, dates, numbers, symbols, language, size, direction and placement before tattooing begins.</li>
               <li>Once you approve the design and placement and the tattooing process has started, changes may not be possible.</li>
-              <li>Ink Mutation is not responsible for an error that was clearly visible in a design, stencil or placement approved by the client.</li>
+              <li>Mutant Tattoo Studio is not responsible for an error that was clearly visible in a design, stencil or placement approved by the client.</li>
               <li>Minor adjustments may be accommodated at the artist&rsquo;s discretion. Significant changes, a new concept or repeated revisions may require additional fees or a new appointment.</li>
             </ul>
           </div>
@@ -198,7 +198,7 @@ export default function TermsConditionsPage() {
               <li>You accept responsibility for claims resulting from unauthorised material you provide.</li>
             </ul>
             <p>
-              Reference material may be used for inspiration. Ink Mutation may modify or reinterpret it to create an original tattoo design and avoid directly copying another tattoo artist&rsquo;s work.
+              Reference material may be used for inspiration. Mutant Tattoo Studio may modify or reinterpret it to create an original tattoo design and avoid directly copying another tattoo artist&rsquo;s work.
             </p>
           </div>
 
@@ -208,7 +208,7 @@ export default function TermsConditionsPage() {
               INTELLECTUAL PROPERTY
             </h2>
             <ul className="list-disc pl-5 space-y-2">
-              <li>Unless otherwise agreed in writing, all original sketches, tattoo designs, photographs, website content, branding, graphics and creative material produced by Ink Mutation remain the intellectual property of Ink Mutation or the relevant artist.</li>
+              <li>Unless otherwise agreed in writing, all original sketches, tattoo designs, photographs, website content, branding, graphics and creative material produced by Mutant Tattoo Studio remain the intellectual property of Mutant Tattoo Studio or the relevant artist.</li>
               <li>Payment for a tattoo grants you the right to wear the completed tattoo on your body. It does not automatically transfer copyright in the underlying artwork.</li>
               <li>You may share photographs of your tattoo for personal, non-commercial purposes. You may not reproduce, sell, commercially license, mint, merchandise or provide the design to another artist for reproduction without written permission.</li>
             </ul>
@@ -242,7 +242,7 @@ export default function TermsConditionsPage() {
               You should consult a qualified medical professional if you are uncertain whether tattooing is appropriate for you.
             </p>
             <p>
-              Ink Mutation does not provide medical advice or diagnosis. The artist may refuse or postpone a procedure where there is a reasonable health or safety concern.
+              Mutant Tattoo Studio does not provide medical advice or diagnosis. The artist may refuse or postpone a procedure where there is a reasonable health or safety concern.
             </p>
           </div>
 
@@ -291,7 +291,7 @@ export default function TermsConditionsPage() {
               Final appearance varies according to skin type, placement, lifestyle, sun exposure, immune response and aftercare.
             </p>
             <p>
-              Portfolio photographs and digital mock-ups are illustrative. Ink Mutation cannot guarantee that a tattoo will look identical on different skin or remain unchanged over time.
+              Portfolio photographs and digital mock-ups are illustrative. Mutant Tattoo Studio cannot guarantee that a tattoo will look identical on different skin or remain unchanged over time.
             </p>
           </div>
 
@@ -301,7 +301,7 @@ export default function TermsConditionsPage() {
               HYGIENE AND SAFETY
             </h2>
             <ul className="list-disc pl-5 space-y-2">
-              <li>Ink Mutation aims to follow appropriate professional hygiene practices, including the use of single-use or properly sterilised equipment, protective barriers and suitable tattoo products.</li>
+              <li>Mutant Tattoo Studio aims to follow appropriate professional hygiene practices, including the use of single-use or properly sterilised equipment, protective barriers and suitable tattoo products.</li>
               <li>Clients must follow all studio safety instructions and avoid touching sterilised equipment or work areas.</li>
             </ul>
           </div>
@@ -349,7 +349,7 @@ export default function TermsConditionsPage() {
             <ul className="list-disc pl-5 space-y-2">
               <li>The studio may request permission to photograph or record the tattoo or procedure.</li>
               <li>Promotional use of identifiable photographs or videos will be subject to the consent obtained from you. Refusing promotional consent will not affect the quality of the service you receive.</li>
-              <li>Where permission has been granted, Ink Mutation may use the content on its website, portfolio, social media, advertising and promotional materials.</li>
+              <li>Where permission has been granted, Mutant Tattoo Studio may use the content on its website, portfolio, social media, advertising and promotional materials.</li>
             </ul>
           </div>
 
@@ -359,7 +359,7 @@ export default function TermsConditionsPage() {
               PERSONAL PROPERTY
             </h2>
             <p>You are responsible for your personal belongings while visiting the studio.</p>
-            <p>To the maximum extent permitted by law, Ink Mutation is not responsible for loss, theft or damage to personal property unless caused by proven negligence on our part.</p>
+            <p>To the maximum extent permitted by law, Mutant Tattoo Studio is not responsible for loss, theft or damage to personal property unless caused by proven negligence on our part.</p>
           </div>
 
           {/* Website Use */}
@@ -399,7 +399,7 @@ export default function TermsConditionsPage() {
               LIMITATION OF LIABILITY
             </h2>
             <p>Nothing in these Terms excludes liability that cannot lawfully be excluded.</p>
-            <p>To the maximum extent permitted by law, Ink Mutation will not be liable for indirect, incidental, special or consequential losses arising from:</p>
+            <p>To the maximum extent permitted by law, Mutant Tattoo Studio will not be liable for indirect, incidental, special or consequential losses arising from:</p>
             <ul className="list-disc pl-5 space-y-1">
               <li>Use or inability to use the website;</li>
               <li>Reliance on general website information;</li>
@@ -419,7 +419,7 @@ export default function TermsConditionsPage() {
             <h2 className="font-serif-header text-lg font-bold text-foreground uppercase tracking-wider">
               INDEMNITY
             </h2>
-            <p>To the extent permitted by law, you agree to compensate Ink Mutation for losses or claims arising from:</p>
+            <p>To the extent permitted by law, you agree to compensate Mutant Tattoo Studio for losses or claims arising from:</p>
             <ul className="list-disc pl-5 space-y-1">
               <li>Material you provide without proper rights or permission;</li>
               <li>False information supplied by you;</li>
@@ -427,7 +427,7 @@ export default function TermsConditionsPage() {
               <li>Your violation of these Terms; or</li>
               <li>Your infringement of another person&rsquo;s rights.</li>
             </ul>
-            <p>This clause does not apply to losses caused by Ink Mutation&rsquo;s own unlawful conduct or negligence.</p>
+            <p>This clause does not apply to losses caused by Mutant Tattoo Studio&rsquo;s own unlawful conduct or negligence.</p>
           </div>
 
           {/* Privacy */}
@@ -436,7 +436,7 @@ export default function TermsConditionsPage() {
               PRIVACY
             </h2>
             <p>
-              Personal information is handled according to Ink Mutation&rsquo;s Privacy Policy, available on the website.
+              Personal information is handled according to Mutant Tattoo Studio&rsquo;s Privacy Policy, available on the website.
             </p>
             <p>
               By submitting an enquiry or booking form, you authorise us to use your details to respond, manage your booking and provide relevant service communications.
@@ -450,7 +450,7 @@ export default function TermsConditionsPage() {
               FORCE MAJEURE
             </h2>
             <p>
-              Ink Mutation will not be responsible for a delay or failure caused by circumstances beyond reasonable control, including natural disasters, government restrictions, power failures, internet outages, public-health emergencies, transport disruption, equipment failure or artist illness.
+              Mutant Tattoo Studio will not be responsible for a delay or failure caused by circumstances beyond reasonable control, including natural disasters, government restrictions, power failures, internet outages, public-health emergencies, transport disruption, equipment failure or artist illness.
             </p>
             <p>Where reasonably possible, affected appointments will be rescheduled.</p>
           </div>
@@ -475,7 +475,7 @@ export default function TermsConditionsPage() {
               If any provision is found invalid or unenforceable, the remaining provisions will continue to apply to the fullest extent permitted by law.
             </p>
             <p>
-              A delay or failure by Ink Mutation to enforce a provision does not waive its right to enforce that provision later.
+              A delay or failure by Mutant Tattoo Studio to enforce a provision does not waive its right to enforce that provision later.
             </p>
           </div>
 
@@ -486,7 +486,7 @@ export default function TermsConditionsPage() {
             </h2>
             <p>These Terms are governed by the laws of India.</p>
             <p>
-              Subject to any mandatory consumer dispute rights, courts with jurisdiction in Bengaluru, Karnataka, will have jurisdiction over disputes arising from these Terms, the website or Ink Mutation&rsquo;s services.
+              Subject to any mandatory consumer dispute rights, courts with jurisdiction in Bengaluru, Karnataka, will have jurisdiction over disputes arising from these Terms, the website or Mutant Tattoo Studio&rsquo;s services.
             </p>
           </div>
 
@@ -498,7 +498,7 @@ export default function TermsConditionsPage() {
             <p>
               For questions, complaints or booking-related concerns, contact:
               <br />
-              <strong>Ink Mutation Tattoo Studio</strong>
+              <strong>Mutant Tattoo Studio</strong>
               <br />
               153, 1st floor, Sheela Arcade
               <br />

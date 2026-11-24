@@ -2,11 +2,11 @@ import { Metadata } from "next";
 import BlogView from "@/views/BlogView";
 
 export const metadata: Metadata = {
-  title: "Tattoo Blogs & Guides | Ink Mutation Tattoo Studio Bangalore",
+  title: "Tattoo Blogs & Guides | Mutant Tattoo Studio Bangalore",
   description:
-    "Expert tattoo guides, aftercare protocols, fine-line needle precision techniques, and first-time tattoo advice from artist Suprith at Ink Mutation, Koramangala, Bengaluru.",
+    "Expert tattoo guides, aftercare protocols, fine-line needle precision techniques, and first-time tattoo advice from artist Suprith at Mutant, Koramangala, Bengaluru.",
   openGraph: {
-    title: "Tattoo Blogs & Guides | Ink Mutation Tattoo Studio",
+    title: "Tattoo Blogs & Guides | Mutant Tattoo Studio",
     description:
       "Educational articles, aftercare routines, and tattoo design insights by Suprith.",
     images: ["/images/hero_bg.png"],

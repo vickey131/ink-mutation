@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu, X, ArrowUpRight, Phone } from "lucide-react";
 
@@ -27,14 +28,21 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full bg-background border-b border-border-color">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex flex-col">
+        <Link href="/" className="flex items-center gap-0">
+          <Image
+            src="/images/Mutant Logo-1.png"
+            alt="Mutant Tattoos Logo"
+            width={94}
+            height={94}
+            className="object-contain"
+          />
           <span className="font-serif-header text-xl md:text-2xl font-bold text-foreground leading-none tracking-widest">
-            INK MUTATION
+            MUTANT TATTOOS
           </span>
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center space-x-10">
+        <nav className="hidden md:flex items-center space-x-8">
           {navLinks.map((link) => {
             const isActive =
               pathname === link.href ||
@@ -53,7 +61,7 @@ export default function Header() {
 
           <a
             href="tel:+917019000191"
-            className="flex items-center gap-1.5 bg-neutral-dark text-background text-xs tracking-wider uppercase font-semibold px-5 py-2.5 rounded-none transition-smooth hover:bg-gold-primary hover:text-background"
+            className="flex items-center gap-1 bg-neutral-dark text-background text-xs tracking-wider uppercase font-semibold px-5 py-2.5 rounded-none transition-smooth hover:bg-gold-primary hover:text-background"
           >
             <Phone size={14} />
             <span>+91 70190 00191</span>
@@ -61,7 +69,7 @@ export default function Header() {
 
           <Link
             href="/#contact"
-            className="flex items-center gap-1.5 bg-neutral-dark text-background text-xs tracking-wider uppercase font-semibold px-5 py-2.5 rounded-none transition-smooth hover:bg-gold-primary hover:text-background"
+            className="flex items-center gap-1 bg-neutral-dark text-background text-xs tracking-wider uppercase font-semibold px-5 py-2.5 rounded-none transition-smooth hover:bg-gold-primary hover:text-background"
           >
             <span>Book Consultation</span>
             <ArrowUpRight size={14} />

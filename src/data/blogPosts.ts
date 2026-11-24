@@ -32,10 +32,10 @@ export const blogPosts: BlogPost[] = [
     date: "March 15, 2026",
     readTime: "5 min read",
     coverImage: "/images/Norse_Compass_Forearm.jpg",
-    coverImageAlt: "Precise Norse compass fine-line forearm tattoo by the Artist at Ink Mutation",
+    coverImageAlt: "Precise Norse compass fine-line forearm tattoo by the Artist at Mutant Tattoo Studio",
     author: {
       name: "Suprith",
-      role: "Lead Artist & Founder, Ink Mutation",
+      role: "Lead Artist & Founder, Mutant Tattoo Studio",
       avatar: "/images/Artist_Profile.jpg",
     },
     tags: ["Fine Line", "Needle Gauge", "Tattoo Care", "Longevity", "Bengaluru"],
@@ -50,7 +50,7 @@ export const blogPosts: BlogPost[] = [
         heading: "The Needle Geometry Behind Whispering Lines",
         paragraphs: [
           "In traditional tattooing, bold outlines rely on heavy needle groupings (7RL to 14RL) that deposit dense pools of pigment deep within the skin layers. While striking, traditional tattoos lack the delicacy and mathematical rhythm demanded by contemporary aesthetic sensibilities.",
-          "At Ink Mutation, our fine-line philosophy centers on precision bugpin needles—often 1RL (single needle) to 3RL configurations measuring a mere 0.25mm to 0.30mm in diameter. Operating at this scale is akin to micro-surgery: there is zero margin for hesitation. Every arc, curve, and geometric intersection must be completed in a steady, deliberate single pass.",
+          "At Mutant Tattoo Studio, our fine-line philosophy centers on precision bugpin needles—often 1RL (single needle) to 3RL configurations measuring a mere 0.25mm to 0.30mm in diameter. Operating at this scale is akin to micro-surgery: there is zero margin for hesitation. Every arc, curve, and geometric intersection must be completed in a steady, deliberate single pass.",
         ],
         proTip: "Never ask for microscopic script smaller than 4mm per letter; natural skin movement requires breathing room for enduring clarity.",
       },
@@ -70,7 +70,7 @@ export const blogPosts: BlogPost[] = [
         proTip: "Daily hydration with high-linoleic botanical oils and daily SPF 50 application slows ink degradation by over 60%.",
       },
       {
-        heading: "The Ink Mutation Studio Standard",
+        heading: "The Mutant Tattoo Studio Standard",
         paragraphs: [
           "Every fine-line piece executed at our Koramangala private studio is preceded by a personalized anatomical assessment. We evaluate your skin elasticity, grain direction, and daily lifestyle to determine whether your envisioned placement will honor the art over a lifetime.",
         ],
@@ -89,7 +89,7 @@ export const blogPosts: BlogPost[] = [
     coverImageAlt: "Delicate minimalist rose tattoo on forearm executed by Suprith",
     author: {
       name: "Suprith",
-      role: "Lead Artist & Founder, Ink Mutation",
+      role: "Lead Artist & Founder, Mutant Tattoo Studio",
       avatar: "/images/Artist_Profile.jpg",
     },
     tags: ["First Tattoo", "Pain Scale", "Studio Etiquette", "Preparation", "Minimalist"],
@@ -104,7 +104,7 @@ export const blogPosts: BlogPost[] = [
         heading: "Demystifying the Tattoo Sensation",
         paragraphs: [
           "For those who have never been tattooed, anticipation is almost always far more intense than reality. Tattoo pain is rarely unbearable; clients frequently compare it to the sensation of an electric cat scratch or a warm vibration across the skin.",
-          "Because fine-line and minimalist tattoos use ultra-slim single needles rather than dense shading magnums, skin trauma is reduced by up to 70%. Most of our first-time clients at Ink Mutation sit through their session while casually listening to music or chatting with Suprith.",
+          "Because fine-line and minimalist tattoos use ultra-slim single needles rather than dense shading magnums, skin trauma is reduced by up to 70%. Most of our first-time clients at Mutant Tattoo Studio sit through their session while casually listening to music or chatting with Suprith.",
         ],
       },
       {
@@ -125,7 +125,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "The Design Consultation Process",
         paragraphs: [
-          "At Ink Mutation, your session begins with a collaborative stencil placement. We print several sizing variations—differing by millimeters—and test placements directly against your natural contours. We only turn the rotary machine on once you are 100% in love with the stencil mirror reflection.",
+          "At Mutant Tattoo Studio, your session begins with a collaborative stencil placement. We print several sizing variations—differing by millimeters—and test placements directly against your natural contours. We only turn the rotary machine on once you are 100% in love with the stencil mirror reflection.",
         ],
       },
     ],
@@ -142,7 +142,7 @@ export const blogPosts: BlogPost[] = [
     coverImageAlt: "Healed minimalist spiritual tattoo showcasing deep black contrast",
     author: {
       name: "Suprith",
-      role: "Lead Artist & Founder, Ink Mutation",
+      role: "Lead Artist & Founder, Mutant Tattoo Studio",
       avatar: "/images/Artist_Profile.jpg",
     },
     tags: ["Aftercare", "Saniderm", "Healing", "Hygiene", "Skincare"],
@@ -156,7 +156,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Stage 1: The First 3–4 Days with Second Skin",
         paragraphs: [
-          "At Ink Mutation, we seal fresh tattoos with breathable, medical-grade polyurethane adhesive film (often referred to as Saniderm or Dermalize). This hospital-standard barrier locks in your body's natural healing enzymes while locking out pathogens, dust, and friction.",
+          "At Mutant Tattoo Studio, we seal fresh tattoos with breathable, medical-grade polyurethane adhesive film (often referred to as Saniderm or Dermalize). This hospital-standard barrier locks in your body's natural healing enzymes while locking out pathogens, dust, and friction.",
           "It is completely normal for a dark fluid bubble (a mixture of lymph fluid, excess ink, and plasma) to pool beneath the film. Do not panic—this is nature's sterile healing bath. If the film leaks or peels open to expose the tattoo, remove it immediately under warm running water.",
         ],
         proTip: "To remove second-skin film painlessly, peel it slowly downward in the direction of hair growth while in a warm shower.",
@@ -186,10 +186,10 @@ export const blogPosts: BlogPost[] = [
     date: "February 04, 2026",
     readTime: "4 min read",
     coverImage: "/images/Classic_thigh.jpg",
-    coverImageAlt: "Discreet and classic thigh placement tattoo by Suprith at Ink Mutation",
+    coverImageAlt: "Discreet and classic thigh placement tattoo by Suprith at Mutant Tattoo Studio",
     author: {
       name: "Suprith",
-      role: "Lead Artist & Founder, Ink Mutation",
+      role: "Lead Artist & Founder, Mutant Tattoo Studio",
       avatar: "/images/Artist_Profile.jpg",
     },
     tags: ["Minimalist", "Classic Tattoos", "Placement", "Micro Art", "Elegance"],
@@ -204,7 +204,7 @@ export const blogPosts: BlogPost[] = [
         heading: "The Philosophy of Secret & Intimate Ink",
         paragraphs: [
           "Not all body art is meant for the gaze of passing strangers. Some of the most meaningful tattoos are private vows, silent milestones, and quiet reminders etched in spots visible only to the wearer and their closest circle.",
-          "This philosophy drives our Classic and Minimal specialties at Ink Mutation. We believe restraint is a form of power. A tiny constellation behind the ear or a micro coordinate along the inner ribcage holds profound intimacy.",
+          "This philosophy drives our Classic and Minimal specialties at Mutant Tattoo Studio. We believe restraint is a form of power. A tiny constellation behind the ear or a micro coordinate along the inner ribcage holds profound intimacy.",
         ],
       },
       {
@@ -219,7 +219,7 @@ export const blogPosts: BlogPost[] = [
         heading: "Designing Micro Icons with Gravitas",
         paragraphs: [
           "A common misconception is that minimal tattoos are simple to draw. In truth, micro art is unforgiving. With large traditional tattoos, an extra millimeter of ink can be camouflaged in shading. In a 1.5cm geometric compass or single-word cursive script, absolute stillness and breath control are mandatory.",
-          "We invite you to bring your conceptual thoughts, dates, or symbols to Ink Mutation Studio. Together, we refine them into an understated masterpiece tailored to your story.",
+          "We invite you to bring your conceptual thoughts, dates, or symbols to Mutant Tattoo Studio. Together, we refine them into an understated masterpiece tailored to your story.",
         ],
       },
     ],
